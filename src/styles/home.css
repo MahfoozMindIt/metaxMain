@@ -42,3 +42,21 @@
   .widthHome2{
     width: 55%;
   } */
+
+/* @media screen and (min-width:1700px) {
+    .widthHome{
+        width: 65% !important;
+    }
+} */
+@media screen and (min-width:2000px) {
+    .widthHome{
+        width: 65% !important;
+    }
+    .widthHome2{
+        width: 55%;
+      }
+      .homeMain{
+        height: 1000px;
+      }
+   
+}

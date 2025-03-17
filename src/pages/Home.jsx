@@ -24,7 +24,7 @@ import { TiTick } from "react-icons/ti";
 const Home = () => {
   return (
     <div className='  flex flex-col items-center font-primary'>
-<div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary h-[85vh] relative'>
+<div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary xl:h-[95vh] relative'>
 <section className='w-[90%] widthHome flex items-center flex-col py-5 text-white'>
          {/* navBar */}
          <nav className='flex justify-between items-center w-full '>
@@ -98,7 +98,7 @@ Global Payment Solutions for Business Owners
 </div>
 <div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
   <img src={a2} alt="" />
-  <h3 className='text-3xl font-semibold'>11 Major Currencies</h3>
+  <h3 className='text-3xl text-center font-semibold'>11 Major Currencies</h3>
   <p className='text-center'>Effortlessly receive and hold funds in 11 major currencies, offering you the flexibility to operate internationally.</p>
 
 </div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
@@ -113,7 +113,7 @@ Global Payment Solutions for Business Owners
 
 </div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
   <img src={a5} alt="" />
-  <h3 className='text-3xl font-semibold'>Optimal Financial Workflow</h3>
+  <h3 className='text-3xl text-center font-semibold'>Optimal Financial Workflow</h3>
   <p className='text-center'>We're bridging access between traditional and innovative payment rails under the same platform to ensure an optimal financial workflow.</p>
 
 </div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
