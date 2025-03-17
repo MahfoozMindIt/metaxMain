@@ -24,7 +24,7 @@ import { TiTick } from "react-icons/ti";
 const Home = () => {
   return (
     <div className='  flex flex-col items-center font-primary'>
-<div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary xl:h-[95vh] relative'>
+<div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary xl:h-screen relative'>
 <section className='w-[90%] widthHome flex items-center flex-col py-5 text-white'>
          {/* navBar */}
          <nav className='flex justify-between items-center w-full '>
@@ -71,7 +71,7 @@ Global Payment Solutions for Business Owners
   </main>
   <main className='w-[47%] flex justify-center'>
 <div className=''>
-<img src={banner} alt="" />
+<img src={banner} alt="" className=''/>
 </div>
   </main>
 </section>
@@ -96,22 +96,22 @@ Global Payment Solutions for Business Owners
   <p className='text-center'>Expand into new global markets with ease using our fast and reliable payment solutions.</p>
 
 </div>
-<div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
+<div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] transition-all duration-500 hover:bg-primary hover:text-white'>
   <img src={a2} alt="" />
   <h3 className='text-3xl text-center font-semibold'>11 Major Currencies</h3>
   <p className='text-center'>Effortlessly receive and hold funds in 11 major currencies, offering you the flexibility to operate internationally.</p>
 
-</div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
+</div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:-rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
   <img src={a3} alt=""/>
   <h3 className='text-3xl font-semibold'>Global Network</h3>
   <p className='text-center'>Increase your reach and improve your treasury management using our global network.</p>
 
-</div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
+</div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:-rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
   <img src={a4} alt="" />
   <h3 className='text-3xl font-semibold'>Over 50 Countries</h3>
   <p className='text-center'>Send payments to over 50 countries, unlocking new opportunities and building strong global partnerships</p>
 
-</div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
+</div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] transition-all duration-500 hover:bg-primary hover:text-white'>
   <img src={a5} alt="" />
   <h3 className='text-3xl text-center font-semibold'>Optimal Financial Workflow</h3>
   <p className='text-center'>We're bridging access between traditional and innovative payment rails under the same platform to ensure an optimal financial workflow.</p>
