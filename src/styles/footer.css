@@ -1,0 +1,6 @@
+.back{
+    background: url("../assets//back.png");
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
