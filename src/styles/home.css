@@ -1,6 +1,15 @@
 .containerBanner{
     height: 200px !important;
 }
+.missionBox{
+  background: url('../assets//bgAbout.png') !important;
+  background-repeat: no-repeat;
+  background-position: 30% !important;
+  height: 100%;
+  width: 100%;
+
+
+}
 .homeMain{
     background: url('../assets/bannerBg.png');
     background-color: #030B15;
@@ -30,6 +39,11 @@
     background-size: contain;
 
   }
+  #about1{
+    background-image: url("../assets//about1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .sec6{
     background: url("../assets//back.png");
     background-position: 10%;
@@ -53,7 +67,10 @@
         width: 65% !important;
     }
     .widthHome2{
-        width: 55%;
+        width: 50% !important;
+      }
+      .regulateWidth{
+        width: 40%;
       }
       .homeMain{
         height: 1000px;

@@ -20,6 +20,7 @@ import three from "../assets/03.png"
 import four from "../assets/04.png"
 import map from "../assets/mapFinal.png"
 import { TiTick } from "react-icons/ti";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -30,12 +31,18 @@ const Home = () => {
          <nav className='flex justify-between items-center w-full '>
 <img src={logo} alt="" className=''/>
 <ul className='flex items-center gap-10'>
-    <li>Home</li>
+    
+ <Link to='/'>
+    <li>Home</li></Link>
     <li>Business</li>
     <li>Personal</li>
-    <li>Blog</li>
-    <li>Contact Us</li>
+    <li>Blog</li> 
+    <Link to='/about'>
     
+    <li>About Us</li></Link>
+    <Link to='/contact'>
+    
+    <li>Contact Us</li></Link> 
 </ul>
 
 <div className='flex items-center gap-7'>
@@ -49,7 +56,7 @@ const Home = () => {
 
 <section className='flex w-full justify-between pt-20 items-center'>
   <main className='w-[50%] flex flex-col gap-10'>
-<h1 className='text-6xl font-bold leading-18'>
+<h1 className='text-7xl font-bold leading-20'>
 Global Payment Solutions for Business Owners
 </h1>
 <div className='flex items-center gap-20'>
@@ -77,7 +84,7 @@ Global Payment Solutions for Business Owners
 </section>
     
     </section>
-    <div className='bg-primary flex items-center justify-center flex-col gap-3 py-7 text-white rounded-xl w-[65%] absolute -bottom-30'>
+    <div className='bg-primary regulateWidth flex items-center justify-center flex-col gap-3 py-7 text-white rounded-xl w-[65%] absolute -bottom-30'>
 <h2 className='text-4xl font-bold'>We’re Regulated & Authorized</h2>
 <p>Want to setup a call with one of our experts?</p>
 <button className='bg-white text-black font-medium py-2 px-5 rounded'>Book Now</button>
@@ -151,7 +158,7 @@ UK Sterling (GBP)</li>
   <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
 US Dollar (USD)</li>
   <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-  United Arab Emirates Dirham (AED)</li>
+  Hungarian Forint (HUF)</li>
 </ul>
 <ul className='flex flex-col w-[35%] gap-5 text-sm'>
   <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Norwegian Krone (NOK)</li>
@@ -168,8 +175,8 @@ Swiss Franc (CHF)</li>
 Romanian Leu (RON)</li>
   <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
 Danish Krone (DKK)</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-  Hungarian Forint (HUF)</li>
+  <li className='flex gap-5 text-[13.5px] items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+   United Arab Emirates Dirham (AED)</li>
 </ul>
 </div>
 </div>

@@ -6,6 +6,8 @@ import Layout from './Layout'
 import ScrollToTop from './components/Scroll';
 
 const Home=lazy(()=>import('./pages/Home'));
+const Contact=lazy(()=>import('./pages/Contact'));
+const About=lazy(()=>import('./pages/About'));
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Routes>
         <Route path='/' element={<Layout/>}>
         <Route index element={<Home/>}/>
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
         </Route>
       </Routes></ScrollToTop>
     </Router>
