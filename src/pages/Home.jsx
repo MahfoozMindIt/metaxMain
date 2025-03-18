@@ -264,14 +264,14 @@ Danish Krone (DKK)</li>
   {/* 1st div */}
   <div className='flex flex-col gap-20  '>
 
-    <div className='flex flex-col justify-center items-center gap-5 box p-5'>
+    <div className='flex flex-col justify-center rounded items-center gap-5 box p-5'>
 <img src={one} alt="" className='h-16 w-16 object-contain'/>
 <h2 className='text-2xl font-semibold text-center'>Fast & Cost-Effective Transfers</h2>
 <p className='opacity-[0.7] font-light text-center'>
 Experience seamless international transactions with competitive exchange rates and minimal fees, ensuring faster and more affordable money transfers worldwide.
 </p>
     </div>
-    <div className='flex flex-col justify-center items-center gap-5 box p-5'>
+    <div className='flex flex-col justify-center rounded items-center gap-5 box p-5'>
 <img src={three} alt="" className='h-20 w-20 object-contain'/>
 <h2 className='text-2xl font-semibold text-center'>Local AED Collections</h2>
 <p className='opacity-[0.7] font-light text-center'>Easily collect and process AED payments locally with our efficient payment solutions, enabling businesses to operate smoothly in the UAE without currency conversion hassles.
@@ -286,13 +286,13 @@ Experience seamless international transactions with competitive exchange rates a
   {/* 2nd div */}
   <div className='flex flex-col gap-20  '>
 
-    <div className='flex flex-col justify-center items-center gap-5 box p-5'>
+    <div className='flex flex-col rounded justify-center items-center gap-5 box p-5'>
 <img src={two} alt="" className='h-20 w-20 object-contain'/>
 <h2 className='text-2xl font-semibold text-center'>Secure Virtual Accounts</h2>
 <p className='opacity-[0.7] font-light text-center'>Manage your global finances effortlessly with our secure multi-currency virtual accounts, designed to provide a safe and reliable way to send, receive, and store funds.
 </p>
     </div>
-    <div className='flex flex-col justify-center items-center gap-5 box p-5'>
+    <div className='flex flex-col rounded justify-center items-center gap-5 box p-5'>
 <img src={four} alt="" className='h-20 w-20 object-contain'/>
 <h2 className='text-2xl font-semibold text-center'>Instant Payouts</h2>
 <p className='opacity-[0.7] font-light text-center'>Access your funds instantly with our rapid payout solutions, allowing businesses and individuals to receive money quickly and efficiently without unnecessary delays.
