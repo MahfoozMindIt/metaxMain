@@ -18,7 +18,7 @@ import one from "../assets/01.png"
 import two from "../assets/02.png"
 import three from "../assets/03.png"
 import four from "../assets/04.png"
-import map from "../assets/map.png"
+import map from "../assets/mapFinal.png"
 import { TiTick } from "react-icons/ti";
 
 const Home = () => {
@@ -84,9 +84,103 @@ Global Payment Solutions for Business Owners
 
     </div>
 </div>
+{/* last section */}
+<section className='w-[90%] widthHome flex-col flex items-center justify-between pb-16 pt-52'>
+<div className='w-full text-center'>
+ 
+<span className='text-primary text-center uppercase text-xl font-semibold'>Why Choose Us</span>
+  <h2 className='text-6xl font-bold pb-10 pt-2'>Meet All Your Business Needs with Metax </h2><div className=' w-full flex flex-col items-center justify-center gap-5'>
+    <p className='text-center w-[60%] pb-5 font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:
+    </p>
+  </div></div>
+  
+
+
+<div className='py-32 pt-72 relative '>
+  <img src={timeline} alt="" />
+  <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 '>
+    <div className='flex items-center gap-10'>
+<img src={one} alt="" className='h-10 w-10 object-contain'/>
+<h2 className='text-xl font-semibold text-center'>Fully digital</h2></div>
+<p className='opacity-[0.7] font-light'>The registration of business start-up accounts and onboarding process is fully digital, from anywhere in the world
+</p>
+    </div>
+
+    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-19 left-90'>
+    <div className='flex items-center gap-10'>
+<img src={two} alt="" className='h-10 w-10 object-contain'/>
+<h2 className='text-xl font-semibold text-center'>Secured</h2></div>
+<p className='opacity-[0.7] font-light'>All funds are secured so your capital is always fully protected.
+</p>
+    </div>
+    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute bottom-32 left-200'>
+    <div className='flex items-center gap-10'>
+<img src={three} alt="" className='h-10 w-10 object-contain'/>
+<h2 className='text-xl font-semibold text-center'>Mobile</h2></div>
+<p className='opacity-[0.7] font-light'>Ability to make payments, export transaction history, and more on the go using the iOS/android app or your smartphone browser
+</p>
+    </div>
+    
+    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-19 left-265'>
+    <div className='flex items-center gap-10'>
+<img src={four} alt="" className='h-10 w-10 object-contain'/>
+<h2 className='text-xl font-semibold text-center'>Secure software</h2></div>
+<p className='opacity-[0.7] font-light'>The most secure software, developed by professionals according to ISO 9001:2015 and ISO/IEC 27001:2013.
+</p>
+    </div>
+</div>
+
+
+
+  </section>
+{/* last section ends ....*/}
+
+{/* 3rd section currencies we suppport */}
+<main className='flex justify-center w-full py-20 sec6 mb-44'>
+<section className='w-[90%] flex widthHome text-white items-center justify-between py-20'>
+<div className='w-[50%]'>
+  <span className='text-primary uppercase font-semibold'>Supported Currency</span>
+  <h2 className='text-6xl font-semibold pb-5'>Currencies We Support</h2>
+  <p className='pb-10 w-[85%]'>We support a diverse range of currencies, ensuring seamless, secure, and hassle-free global transactions for businesses and individuals worldwide.</p>
+  <div className='flex justify-between'>
+  
+<ul className='flex flex-col w-[35%]  gap-5 text-sm'>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Euro (EUR)</li>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+UK Sterling (GBP)</li>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+US Dollar (USD)</li>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+  United Arab Emirates Dirham (AED)</li>
+</ul>
+<ul className='flex flex-col w-[35%] gap-5 text-sm'>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Norwegian Krone (NOK)</li>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+Swedish Krona (SEK)</li>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+Swiss Franc (CHF)</li>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+  Polish Zloty (PLN)</li>
+</ul>
+<ul className='flex flex-col gap-5 w-[35%] text-sm'>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Czech Koruna (CZK)</li>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+Romanian Leu (RON)</li>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+Danish Krone (DKK)</li>
+  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+  Hungarian Forint (HUF)</li>
+</ul>
+</div>
+</div>
+
+<img src={map} alt="" />
+</section>
+</main>
+{/* 3rd section currencies we suppport ends... */}
 
 {/* 2nd section one iban for all */}
-<section className='w-[80%] widthHome2 flex items-center flex-col pb-44 pt-52 '>
+<section className='w-[80%] widthHome2 flex items-center flex-col pb-44  '>
   <h2 className='text-6xl font-bold'>One <span className='text-primary '>IBAN</span>  for All </h2>
   <p className='pt-4'>One IBAN for all your business needs—seamless transactions, global reach</p>
   <div className='grid grid-cols-3 gap-10 pt-14'>
@@ -127,47 +221,36 @@ Global Payment Solutions for Business Owners
 </section>
 {/* 2nd section one iban for all ends....... */}
 
-{/* 3rd section currencies we suppport */}
-<section className='w-[90%] flex widthHome items-center justify-between pb-44 '>
-<div className='w-[50%]'>
-  <span className='text-primary uppercase font-semibold'>Supported Currency</span>
-  <h2 className='text-6xl font-semibold pb-5'>Currencies We Support</h2>
-  <p className='pb-10 w-[85%]'>We support a diverse range of currencies, ensuring seamless, secure, and hassle-free global transactions for businesses and individuals worldwide.</p>
-  <div className='flex justify-between'>
+{/* 5th section bulk payments */}
+<main className='w-full flex justify-center sec6 mb-44'>
+<section className='w-[90%] flex widthHome text-white items-center justify-between  '>
   
-<ul className='flex flex-col w-[35%]  gap-5 text-sm'>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Euro (EUR)</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-UK Sterling (GBP)</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-US Dollar (USD)</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-  United Arab Emirates Dirham (AED)</li>
-</ul>
-<ul className='flex flex-col w-[35%] gap-5 text-sm'>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Norwegian Krone (NOK)</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-Swedish Krona (SEK)</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-Swiss Franc (CHF)</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-  Polish Zloty (PLN)</li>
-</ul>
-<ul className='flex flex-col gap-5 w-[35%] text-sm'>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Czech Koruna (CZK)</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-Romanian Leu (RON)</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-Danish Krone (DKK)</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-  Hungarian Forint (HUF)</li>
-</ul>
-</div>
-</div>
-
-<img src={map} alt="" />
-</section>
-{/* 3rd section currencies we suppport ends... */}
+  <div id='sec5' className='sec5 h-[900px] w-[1300px] flex justify-center relative items-center'>
+  <img src={bulk} alt="" className='h-[300px] animate-bounce absolute top-[250px]'/>
+  </div>
+  <div className='w-[50%]'>
+    <span className='text-primary uppercase font-semibold'>Bulk Payments</span>
+    <h2 className='text-6xl font-semibold pb-5 pt-2'>Simplify Bulk Payments for Your Global Workforce</h2>
+    <p className='pb-10 w-[85%]'>Managing payments for a large, distributed team doesn’t have to be complicated. With Metax Payments, you can effortlessly process bulk payments to employees, contractors, and partners worldwide.</p>
+    
+  <ul className='flex flex-col gap-5 pb-10'>
+    <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Efficient, Scalable, and Cost-Effective
+  </li>
+    <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+  
+    Empower Your Business with Seamless Payments</li>
+    <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
+    
+  One Platform, Endless Possibilities</li>
+  </ul>
+  
+<button className='bg-white py-2 px-5  rounded w-fit text-black  font-medium'>Open Account</button>
+  <button className='bg-primary ml-5 py-2 px-5 rounded w-fit text-white'>Learn More</button>
+  </div>
+  
+  </section>
+</main>
+{/* 5th section currencies we suppport ends... */}
 {/* section4 get your own UAE */}
 <section className='w-[90%] widthHome flex-col flex items-center justify-between pb-44 '>
 <div className='w-full text-center'>
@@ -223,48 +306,22 @@ Experience seamless international transactions with competitive exchange rates a
 </section>
 {/* section4 get your own UAE ends ......*/}
 {/* mini sec */}
-<section className='w-[90%] widthHome flex-col flex items-center justify-between pt-32 '>
+<section className='w-[90%] widthHome flex-col flex items-center justify-between pb-24 '>
 <div className='w-full text-center'>
  
   <h2 className='text-xl font-light pb-3'>No more waiting. No hidden fees. Just seamless global banking at your fingertips. </h2><div className=' w-full flex flex-col items-center justify-center gap-5'>
   <span className='text-primary text-2xl text-center uppercase font-extrabold'>
   Open Your AED IBAN Today!</span>
     <p className='text-center w-[70%] pb-5 font-light'>Expand your financial reach with a dedicated AED IBAN, designed for businesses and individuals seeking fast, cost-effective, and seamless international transactions. With our multi-currency account, you can settle payments in 50+ currencies across 33 countries, simplifying cross-border banking like never before.</p>
-    
+    <div className='flex'>
 <button className='bg-primary py-2 px-5 rounded w-fit text-white'>Open Account</button>
+<button className='bg-primary ml-5 py-2 px-5 rounded w-fit text-white'>Learn More</button></div>
   </div></div></section>
 {/* mini sec ends ....*/}
 
 
 
 
-{/* 3rd section currencies we suppport */}
-<section className='w-[90%] flex widthHome items-center justify-between  '>
-  
-<div id='sec5' className='sec5 h-[1300px] w-[1300px] flex justify-center relative items-center'>
-<img src={bulk} alt="" className='h-[300px] animate-bounce absolute top-[400px]'/>
-</div>
-<div className='w-[50%]'>
-  <span className='text-primary uppercase font-semibold'>Bulk Payments</span>
-  <h2 className='text-6xl font-semibold pb-5 pt-2'>Simplify Bulk Payments for Your Global Workforce</h2>
-  <p className='pb-10 w-[85%]'>Managing payments for a large, distributed team doesn’t have to be complicated. With Metax Payments, you can effortlessly process bulk payments to employees, contractors, and partners worldwide.</p>
-  
-<ul className='flex flex-col gap-5 pb-10'>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Efficient, Scalable, and Cost-Effective
-</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-
-  Empower Your Business with Seamless Payments</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>
-  
-One Platform, Endless Possibilities</li>
-</ul>
-
-<button className='bg-primary py-2 px-5 rounded w-fit text-white'>Learn More</button>
-</div>
-
-</section>
-{/* 5th section currencies we suppport ends... */}
 
 {/* 6th section */}
 <section className='w-[90%] sec6 flex widthHome items-center justify-between  rounded-xl mb-44'>
@@ -283,56 +340,7 @@ One Platform, Endless Possibilities</li>
 </section>
 {/* 6th section ends ...*/}
 
-{/* last section */}
-<section className='w-[90%] widthHome flex-col flex items-center justify-between pb-28 '>
-<div className='w-full text-center'>
- 
-<span className='text-primary text-center uppercase text-xl font-semibold'>Why Choose Us</span>
-  <h2 className='text-6xl font-bold pb-10 pt-5'>Meet All Your Business Needs with Metax </h2><div className=' w-full flex flex-col items-center justify-center gap-5'>
-    <p className='text-center w-[60%] pb-5 font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:
-    </p>
-  </div></div>
-  
 
-
-<div className='py-32 pt-72 relative '>
-  <img src={timeline} alt="" />
-  <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 '>
-    <div className='flex items-center gap-10'>
-<img src={one} alt="" className='h-10 w-10 object-contain'/>
-<h2 className='text-xl font-semibold text-center'>Fully digital</h2></div>
-<p className='opacity-[0.7] font-light'>The registration of business start-up accounts and onboarding process is fully digital, from anywhere in the world
-</p>
-    </div>
-
-    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-19 left-90'>
-    <div className='flex items-center gap-10'>
-<img src={two} alt="" className='h-10 w-10 object-contain'/>
-<h2 className='text-xl font-semibold text-center'>Secured</h2></div>
-<p className='opacity-[0.7] font-light'>All funds are secured so your capital is always fully protected.
-</p>
-    </div>
-    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute bottom-32 left-200'>
-    <div className='flex items-center gap-10'>
-<img src={three} alt="" className='h-10 w-10 object-contain'/>
-<h2 className='text-xl font-semibold text-center'>Mobile</h2></div>
-<p className='opacity-[0.7] font-light'>Ability to make payments, export transaction history, and more on the go using the iOS/android app or your smartphone browser
-</p>
-    </div>
-    
-    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-19 left-300'>
-    <div className='flex items-center gap-10'>
-<img src={four} alt="" className='h-10 w-10 object-contain'/>
-<h2 className='text-xl font-semibold text-center'>Secure software</h2></div>
-<p className='opacity-[0.7] font-light'>The most secure software, developed by professionals according to ISO 9001:2015 and ISO/IEC 27001:2013.
-</p>
-    </div>
-</div>
-
-
-
-  </section>
-{/* last section ends ....*/}
 
 
        </div>
