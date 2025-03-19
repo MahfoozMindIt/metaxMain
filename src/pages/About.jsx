@@ -37,8 +37,8 @@ const Home = () => {
     
  <Link to='/'>
      <li>Home</li></Link>
-     <li>Business</li>
-     <li>Personal</li>
+        <Link to='/business'> <li>Business</li></Link>
+               <Link to='/personal'> <li>Personal</li></Link>
      <li>Blog</li> 
      <Link to='/about'>
      
