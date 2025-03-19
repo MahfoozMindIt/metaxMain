@@ -1,14 +1,11 @@
 import React, { Fragment } from 'react';
-import logo from '../assets/Logo.png';
 import "../styles/home.css";
 import onePurple from '../assets/01purple.png'
 import twoPurple from '../assets/02purple.png'
 import threePurple from '../assets/03purple.png'
 import fourPurple from '../assets/04 purple.png'
 import fivePurple from '../assets/05purple.png'
-import businessFrame from '../assets/businessFrame.png'
-import map from "../assets/mapFinal.png"
-import { Link } from 'react-router-dom';
+import NavbarComponent from '../components/NavbarComponent';
 
 const Personal = () => {
   return (
@@ -16,30 +13,8 @@ const Personal = () => {
 <div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary pb-32'>
 <section className='w-[90%] widthHome flex items-center flex-col py-5 text-white'>
          {/* navBar */}
-         <nav className='flex justify-between items-center w-full '>
-<img src={logo} alt="" className=''/>
-<ul className='flex items-center gap-10'>
-    
- <Link to='/'>
-    <li>Home</li></Link>
-   <Link to='/business'> <li>Business</li></Link>
-
-          <Link to='/personal'> <li>Personal</li></Link>
-    <li>Blog</li> 
-    <Link to='/about'>
-    
-    <li>About Us</li></Link>
-    <Link to='/contact'>
-    
-    <li>Contact Us</li></Link> 
-</ul>
-
-<div className='flex items-center gap-7'>
-    <button className='bg-primary py-2 px-5 rounded'>Login</button>
-    <button className='bg-white text-primary font-medium py-2 px-5 rounded'>Sign Up</button>
-</div>
-</nav>
-
+        
+<NavbarComponent/>
 {/* nabar ends */}
 {/* banner section starts */}
 

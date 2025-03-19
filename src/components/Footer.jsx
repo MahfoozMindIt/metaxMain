@@ -13,7 +13,7 @@ const Footer = () => {
     <div className='back w-full flex justify-center py-20'>
       <div className='w-[90%] widthFooter text-white'>
   
-  <div className='w-full flex justify-between'>
+  <div className='w-full flex gap-52'>
 
 <div>
   <h3 className='font-bold text-primary'>Products</h3>

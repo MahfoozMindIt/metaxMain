@@ -10,6 +10,7 @@ import { SiImessage } from 'react-icons/si';
 import { RiInstagramFill } from 'react-icons/ri';
 import { FaSquareXTwitter } from 'react-icons/fa6';
 import { BsFillSendFill } from 'react-icons/bs';
+import NavbarComponent from '../components/NavbarComponent'
 
 const Contact = () => {
   return (
@@ -17,29 +18,7 @@ const Contact = () => {
 <div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary pb-32'>
 <section className='w-[90%] widthHome flex items-center flex-col py-5 text-white'>
          {/* navBar */}
-         <nav className='flex justify-between items-center w-full '>
-<img src={logo} alt="" className=''/>
-<ul className='flex items-center gap-10'>
-  
-   <Link to='/'>
-       <li>Home</li></Link>
-          <Link to='/business'> <li>Business</li></Link>
-          <Link to='/personal'> <li>Personal</li></Link>
-       <li>Blog</li> 
-       <Link to='/about'>
-       
-       <li>About Us</li></Link>
-       <Link to='/contact'>
-       
-       <li>Contact Us</li></Link> 
-    
-</ul>
-
-<div className='flex items-center gap-7'>
-    <button className='bg-primary py-2 px-5 rounded'>Login</button>
-    <button className='bg-white text-primary font-medium py-2 px-5 rounded'>Sign Up</button>
-</div>
-</nav>
+       <NavbarComponent/>
 
 {/* nabar ends */}
 {/* banner section starts */}

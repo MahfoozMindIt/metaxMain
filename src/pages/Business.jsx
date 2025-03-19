@@ -1,30 +1,13 @@
 import React, { Fragment } from 'react';
 import logo from '../assets/Logo.png';
 import "../styles/home.css";
-import a1 from "../assets/a1.png"
-import a2 from "../assets/a2.png"
-import a3 from "../assets/a3.png"
-import a4 from "../assets/a4.png"
-import a5 from "../assets/a5.png"
-import a6 from "../assets/a6.png"
 import onePurple from '../assets/01purple.png'
 import twoPurple from '../assets/02purple.png'
 import threePurple from '../assets/03purple.png'
 import businessFrame from '../assets/businessFrame.png'
-import banner from "../assets/banner.png";
-import sectionFour from "../assets/sec4.png"
-import sec5Bg from "../assets/sec5Bg.png"
-import sec6 from "../assets/sec6.png"
-import timeline from "../assets/timeline.png"
-import back from "../assets/back.png"
-import bulk from "../assets/bulk.png"
-import one from "../assets/01.png"
-import two from "../assets/02.png"
-import three from "../assets/03.png"
-import four from "../assets/04.png"
 import map from "../assets/mapFinal.png"
-import { TiTick } from "react-icons/ti";
 import { Link } from 'react-router-dom';
+import NavbarComponent from '../components/NavbarComponent'
 
 const Business = () => {
   return (
@@ -32,29 +15,7 @@ const Business = () => {
 <div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary pb-32'>
 <section className='w-[90%] widthHome flex items-center flex-col py-5 text-white'>
          {/* navBar */}
-         <nav className='flex justify-between items-center w-full '>
-<img src={logo} alt="" className=''/>
-<ul className='flex items-center gap-10'>
-    
- <Link to='/'>
-    <li>Home</li></Link>
-   <Link to='/business'> <li>Business</li></Link>
-
-          <Link to='/personal'> <li>Personal</li></Link>
-    <li>Blog</li> 
-    <Link to='/about'>
-    
-    <li>About Us</li></Link>
-    <Link to='/contact'>
-    
-    <li>Contact Us</li></Link> 
-</ul>
-
-<div className='flex items-center gap-7'>
-    <button className='bg-primary py-2 px-5 rounded'>Login</button>
-    <button className='bg-white text-primary font-medium py-2 px-5 rounded'>Sign Up</button>
-</div>
-</nav>
+       <NavbarComponent/>
 
 {/* nabar ends */}
 {/* banner section starts */}

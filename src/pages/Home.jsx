@@ -19,38 +19,17 @@ import two from "../assets/02.png"
 import three from "../assets/03.png"
 import four from "../assets/04.png"
 import map from "../assets/mapFinal.png"
+import NavbarComponent from "../components/NavbarComponent"
 import { TiTick } from "react-icons/ti";
 import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <div className='  flex flex-col items-center font-primary'>
-<div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary xl:h-screen relative'>
+<div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary pb-32 relative'>
 <section className='w-[90%] widthHome flex items-center flex-col py-5 text-white'>
          {/* navBar */}
-         <nav className='flex justify-between items-center w-full '>
-<img src={logo} alt="" className=''/>
-<ul className='flex items-center gap-10'>
-    
- <Link to='/'>
-    <li>Home</li></Link>
-       <Link to='/business'> <li>Business</li></Link>
-  
-            <Link to='/personal'> <li>Personal</li></Link>
-    <li>Blog</li> 
-    <Link to='/about'>
-    
-    <li>About Us</li></Link>
-    <Link to='/contact'>
-    
-    <li>Contact Us</li></Link> 
-</ul>
-
-<div className='flex items-center gap-7'>
-    <button className='bg-primary py-2 px-5 rounded'>Login</button>
-    <button className='bg-white text-primary font-medium py-2 px-5 rounded'>Sign Up</button>
-</div>
-</nav>
+        <NavbarComponent/>
 
 {/* nabar ends */}
 {/* banner section starts */}
