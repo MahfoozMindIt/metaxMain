@@ -132,7 +132,7 @@ Contact Us</li>
     </div>
 
     <div className='w-full flex justify-center py-5'>
-      <div className='w-[90%] widthFooter font-bold text-2xl flex justify-center'>
+      <div className='w-[90%] widthFooter font-bold text-xl flex justify-center'>
 
       Copyright © 2022-2024 Metax Payments. All Rights Reserved.
 
