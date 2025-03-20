@@ -113,7 +113,7 @@ Real-time transaction
 
 
 <li> 
-ATM withdrawal </li>
+ATM withdrawal. </li>
     </ul></p>
    </div>
     
