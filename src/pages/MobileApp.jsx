@@ -2,15 +2,11 @@ import React, { Fragment, useState } from 'react';
 import "../styles/home.css";
 import onePurple from '../assets/01purple.png'
 import twoPurple from '../assets/02purple.png'
-import gbpRight from '../assets/gbpRight.png'
 import threePurple from '../assets/03purple.png'
 import fourPurple from '../assets/04 purple.png'
-import fivePurple from '../assets/05purple.png'
-import sixPurple from '../assets/06purple.png'
 import NavbarComponent from '../components/NavbarComponent';
-import { RiArrowDropDownLine } from 'react-icons/ri';
 
-const BulkPayment = () => {
+const MobileApp = () => {
  
 
   return (
@@ -24,11 +20,11 @@ const BulkPayment = () => {
 {/* banner section starts */}
 
 <section className='flex justify-center w-full pt-20'>
-  <main className='flex flex-col w-[55%] gap-10'>
+  <main className='flex flex-col w-[80%] gap-10'>
 <h1 className='text-7xl text-center font-bold leading-20'>
-Bulk Payments
+Seamless banking at your fingertips with our app
 </h1>
-<p className='text-center opacity-[0.8]'>With Metax, setting up a account for bulk payments is quick and simple, enabling you to process multiple transactions effortlessly. Our fully digital onboarding and verification process ensures a seamless and efficient experience.
+<p className='text-center opacity-[0.8]'>Check your balance, make payments and manage your cards directly from your smartphone.
 </p>
 <div className='flex justify-center gap-5'>
 <button className='bg-primary rounded w-fit px-5 py-2'>Open Account</button>
@@ -51,8 +47,8 @@ Bulk Payments
 '>
 <div className='text-center w-full'>
  <div className='flex flex-col justify-center w-full gap-5 items-center'>
-    <h1 className='text-5xl text-center font-semibold leading-20'>Advantages of Opening a Sterling Account</h1>
-    <p className='text-center w-[70%] font-light py-5'>Metax provides a variety of financial services, such as your personal IBAN, international payments, currency exchange, and more. Registering for a sterling business account is fast and straightforward, enabling you to effectively manage your finances.
+    <h1 className='text-5xl text-center font-semibold leading-20'>Banking in your pocket wherever you go</h1>
+    <p className='text-center w-[70%] font-light opacity-[0.8] py-5'>With the MetaX app, you can easily meet all your daily banking needs – from checking your account balance to sending payments on the fly, and much more.
     </p>
     
   </div></div>
@@ -62,8 +58,8 @@ Bulk Payments
 
   <div className='flex flex-col border-[1px] border-primary justify-center p-5 rounded-xl box gap-7 items-center py-10'>
 <img src={onePurple} alt="" className='h-20 w-20 object-cover'/>
-<h2 className='text-[25px] text-center font-semibold'>Efficient, Scalable, and Cost-Effective</h2>
-<p className='text-center font-light opacity-[0.7]'>Our platform ensures that every payment is delivered quickly, accurately, and securely, no matter where your team is located.
+<h2 className='text-[25px] text-center font-semibold'>Stay on top of your finances with a real-time payments list</h2>
+<p className='text-center font-light opacity-[0.7]'>With a convenient interface, get the full picture by tracking all incoming and outgoing payments in real-time.
 </p>
 
 <button className='bg-primary rounded text-white w-fit px-5 py-2'>Open Account</button>
@@ -71,8 +67,8 @@ Bulk Payments
     </div>
     <div className='flex flex-col border-[1px] border-primary justify-center p-5 rounded-xl box gap-7 items-center py-10'>
 <img src={twoPurple} alt="" className='h-20 w-20 object-cover'/>
-<h2 className='text-[25px] text-center font-semibold'>Seamless Money Transfers and Payment Management</h2>
-<p className='text-center font-light opacity-[0.7]'>Metax Payments handle the complexities of bulk payments, so you can focus on what truly matters: driving your business forward.
+<h2 className='text-[25px] text-center font-semibold'>Send payments effortlessly</h2>
+<p className='text-center font-light opacity-[0.7]'>A colleague paid for your lunch? Get even immediately. With just a few taps, send money from any of your accounts.
 </p>
 
 <button className='bg-primary rounded text-white w-fit px-5 py-2'>Open Account</button>
@@ -80,8 +76,8 @@ Bulk Payments
     </div>
     <div className='flex flex-col border-[1px] border-primary justify-center p-5 rounded-xl box gap-7 items-center py-10'>
 <img src={threePurple} alt="" className='h-20 w-20 object-cover'/>
-<h2 className='text-[25px] text-center font-semibold'>One Platform, Endless Possibilities</h2>
-<p className='text-center font-light opacity-[0.7]'>Our user-friendly platform allows you to upload payment lists, schedule payouts, and track transactions—all from a single dashboard. Whether you’re paying employees, freelancers, or vendors, Metax Payments makes it simple to manage everything in one place.
+<h2 className='text-[25px] text-center font-semibold'>Manage your business and private cards</h2>
+<p className='text-center font-light opacity-[0.7]'>Seamlessly access and manage all your Metax VISA Debit cards via the app. Check the card’s PIN, status, and validity, or freeze the card, if you need to.
 
 </p>
 
@@ -90,8 +86,8 @@ Bulk Payments
     </div>
     <div className='flex flex-col border-[1px] border-primary justify-center p-5 rounded-xl box gap-7 items-center'>
 <img src={fourPurple} alt="" className='h-20 w-20 object-cover'/>
-<h2 className='text-[25px] text-center font-semibold'>Pay in Local Currency, Every Time</h2>
-<p className='text-center font-light opacity-[0.7]'>Metax Payments handles the complexities of cross-border transactions, so you don’t have to. With competitive exchange rates and low fees, you can pay your global workforce with confidence.
+<h2 className='text-[25px] text-center font-semibold'>Get secure authentication</h2>
+<p className='text-center font-light opacity-[0.7]'>The Metax app ensures secure and hassle-free authentication for logging in to your Online Banking system: receive an authentication code and easily approve it via the app.
 </p>
 
 <button className='bg-primary rounded text-white w-fit px-5 py-2'>Open Account</button>
@@ -115,8 +111,8 @@ Bulk Payments
 {/* 6th section */}
 <section className='flex justify-between rounded-xl w-full items-center lg:w-[70%] mb-44 md:w-[70%] sec6 widthProductLess'>
   <div className='flex flex-col justify-center p-20 text-white w-full items-center'>
-    <h2 className='text-5xl text-center font-bold leading-16'>Unlock more financial opportunities for your account with Metax's Bulk Payments</h2>
-    <p className='text-center pb-10 pt-5'>Open a Sterling account and access a range of financial services from a single platform
+    <h2 className='text-5xl text-center font-bold leading-16'>Unlock more financial opportunities for your account with Metax's App </h2>
+    <p className='text-center pb-10 pt-5'>Download an App Now and access a range of financial services from a single platform
     </p>
     
 <button className='bg-white rounded text-black text-xl w-fit font-medium px-5 py-3'>Open Account</button>
@@ -132,4 +128,4 @@ Bulk Payments
   )
 }
 
-export default BulkPayment;
+export default MobileApp;

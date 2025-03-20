@@ -7,25 +7,25 @@ import NavbarComponent from '../components/NavbarComponent';
 
 const AED = () => {
   return (
-    <div className='  flex flex-col items-center font-primary'>
-<div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary pb-32'>
-<section className='w-[90%] widthHome flex items-center flex-col py-5 text-white'>
+    <div className='flex flex-col font-primary items-center'>
+<div className='flex flex-col bg-[#030B15] w-full font-primary homeMain items-center pb-32'>
+<section className='flex flex-col text-white w-[90%] items-center py-5 widthHome'>
          {/* navBar */}
         
 <NavbarComponent/>
 {/* nabar ends */}
 {/* banner section starts */}
 
-<section className='flex w-full justify-center pt-20 '>
-  <main className='w-[55%] flex flex-col gap-10'>
+<section className='flex justify-center w-full pt-20'>
+  <main className='flex flex-col w-[55%] gap-10'>
 <h1 className='text-7xl text-center font-bold leading-20'>
 AED Account
 </h1>
-<p className='opacity-[0.8] text-center'>Metax offers fast and secure AED (UAE Dirham) account setup with seamless digital onboarding. Effortlessly manage UAE local payment rails and consolidate all your corporate banking transactions in one centralized platform.
+<p className='text-center opacity-[0.8]'>Metax offers fast and secure AED (UAE Dirham) account setup with seamless digital onboarding. Effortlessly manage UAE local payment rails and consolidate all your corporate banking transactions in one centralized platform.
 </p>
-<div className='flex gap-5 justify-center'>
-<button className='bg-primary py-2 px-5 rounded w-fit '>Open Account</button>
-<button className='bg-primary py-2 px-5 rounded w-fit '>Learn More</button>
+<div className='flex justify-center gap-5'>
+<button className='bg-primary rounded w-fit px-5 py-2'>Open Account</button>
+<button className='bg-primary rounded w-fit px-5 py-2'>Learn More</button>
 </div>
   </main>
 </section>
@@ -38,9 +38,9 @@ AED Account
 
 
 '>
-<div className='w-full text-center'>
- <div className=' w-full flex flex-col items-center justify-center gap-5'>
-    <p className='text-center w-[80%] text-3xl pb-5 font-semibold italic'>It’s time to grow your business with simplicity and efficiency.
+<div className='text-center w-full'>
+ <div className='flex flex-col justify-center w-full gap-5 items-center'>
+    <p className='text-3xl text-center w-[80%] font-semibold italic pb-5'>It’s time to grow your business with simplicity and efficiency.
     </p>
     
   </div></div>
@@ -48,34 +48,34 @@ AED Account
   <div className='grid grid-cols-3 gap-20 pt-28'>
 
 
-  <div className='flex flex-col justify-center rounded-xl items-center border-[1px] border-primary gap-7 box p-5'>
-<img src={onePurple} alt="" className='h-20 w-20 object-contain'/>
-<h2 className='text-2xl font-semibold text-center'>Easy Control With Single Center</h2>
-<p className='opacity-[0.7] font-light text-center'>International transactions are no longer difficult. Grow your business, manage all your transactions from a single center.
+  <div className='flex flex-col border-[1px] border-primary justify-center p-5 rounded-xl box gap-7 items-center'>
+<img src={onePurple} alt="" className='h-20 w-20 object-verntain'/>
+<h2 className='text-2xl text-center font-semibold'>Easy Control With Single Center</h2>
+<p className='text-center font-light opacity-[0.7]'>International transactions are no longer difficult. Grow your business, manage all your transactions from a single center.
 
 </p>
 
-<button className='bg-primary py-2 px-5 rounded w-fit text-white'>Learn More</button>
+<button className='bg-primary rounded text-white w-fit px-5 py-2'>Learn More</button>
 
     </div>
-    <div className='flex flex-col justify-center rounded-xl items-center border-[1px] border-primary gap-7 box p-5'>
-<img src={twoPurple} alt="" className='h-20 w-20 object-contain'/>
-<h2 className='text-2xl font-semibold text-center'>Safe and Secure Account</h2>
-<p className='opacity-[0.7] font-light text-center'>All transactions you make in your business are completely secure. Your account is safe with Metax.
+    <div className='flex flex-col border-[1px] border-primary justify-center p-5 rounded-xl box gap-7 items-center'>
+<img src={twoPurple} alt="" className='h-20 w-20 object-cover'/>
+<h2 className='text-2xl text-center font-semibold'>Safe and Secure Account</h2>
+<p className='text-center font-light opacity-[0.7]'>All transactions you make in your business are completely secure. Your account is safe with Metax.
 
 </p>
 
-<button className='bg-primary py-2 px-5 rounded w-fit text-white'>Learn More</button>
+<button className='bg-primary rounded text-white w-fit px-5 py-2'>Learn More</button>
 
     </div>
-    <div className='flex flex-col justify-center rounded-xl items-center border-[1px] border-primary gap-7 box p-5'>
-<img src={threePurple} alt="" className='h-20 w-20 object-contain'/>
-<h2 className='text-2xl font-semibold text-center'>Money Transfer 
+    <div className='flex flex-col border-[1px] border-primary justify-center p-5 rounded-xl box gap-7 items-center'>
+<img src={threePurple} alt="" className='h-20 w-20 object-cover'/>
+<h2 className='text-2xl text-center font-semibold'>Money Transfer 
 Between Businesses</h2>
-<p className='opacity-[0.7] font-light text-center'>Enter B2B banking, where all business-to-business transactions are possible. Count on us to grow your business.
+<p className='text-center font-light opacity-[0.7]'>Enter B2B banking, where all business-to-business transactions are possible. Count on us to grow your business.
 </p>
 
-<button className='bg-primary py-2 px-5 rounded w-fit text-white'>Learn More</button>
+<button className='bg-primary rounded text-white w-fit px-5 py-2'>Learn More</button>
 
     </div>
 
@@ -96,14 +96,14 @@ Between Businesses</h2>
 
 
 {/* 6th section */}
-<section className='lg:w-[70%] md:w-[70%] w-full sec6 flex widthProductLess items-center justify-between  rounded-xl mb-44'>
-  <div className='text-white flex flex-col items-center justify-center p-20 w-full'>
-    <h2 className='text-5xl font-bold text-center leading-16'>Unlock more financial opportunities for your business with <span className='text-primary'>Metax's AED</span> business account</h2>
-    <p className='pt-5 pb-10 text-center'>Talk directly to our dedicated banking expert to get your final offer
+<section className='flex justify-between rounded-xl w-full items-center lg:w-[70%] mb-44 md:w-[70%] sec6 widthProductLess'>
+  <div className='flex flex-col justify-center p-20 text-white w-full items-center'>
+    <h2 className='text-5xl text-center font-bold leading-16'>Unlock more financial opportunities for your business with <span className='text-primary'>Metax's AED</span> business account</h2>
+    <p className='text-center pb-10 pt-5'>Talk directly to our dedicated banking expert to get your final offer
 
     </p>
     
-<button className='bg-white py-3 px-5  rounded w-fit text-black text-xl font-medium'>Open Account</button>
+<button className='bg-white rounded text-black text-xl w-fit font-medium px-5 py-3'>Open Account</button>
   </div>
 </section>
 {/* 6th section ends ...*/}

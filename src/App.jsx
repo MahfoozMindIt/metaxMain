@@ -15,6 +15,9 @@ const SepaAccount=lazy(()=>import('./pages/SepaAccount'));
 const UkFasterPayment=lazy(()=>import('./pages/UkFasterPayment'));
 const UsdPayment=lazy(()=>import('./pages/UsdPayment'));
 const BulkPayment=lazy(()=>import('./pages/BulkPayment'));
+const ApplePay=lazy(()=>import('./pages/ApplePay'));
+const MobileApp=lazy(()=>import('./pages/MobileApp'));
+const MetaxCards=lazy(()=>import('./pages/MetaxCards'));
 
 
 function App() {
@@ -35,6 +38,9 @@ function App() {
         <Route path="/gbp-account" element={<UkFasterPayment />} />
         <Route path="/usd-payment-account" element={<UsdPayment />} />
         <Route path="/bulk-payment" element={<BulkPayment />} />
+        <Route path="/apple-pay" element={<ApplePay />} />
+        <Route path="/mobile-app" element={<MobileApp />} />
+        <Route path="/cards" element={<MetaxCards />} />
         </Route>
       </Routes></ScrollToTop>
     </Router>

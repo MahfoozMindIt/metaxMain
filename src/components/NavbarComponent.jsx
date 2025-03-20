@@ -37,11 +37,11 @@ const[showProducts,setShowProducts]=useState(false);
       <div className='flex flex-col w-[45%] gap-5 mt-5'>
 <div className='flex border-r-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'><Link to='/bulk-payment'>Bulk Payouts</Link></div>
 <div className='flex border-r-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
-<Link>Apple Pay</Link></div>
+<Link to='/apple-pay'>Apple Pay</Link></div>
 <div className='flex border-r-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
-<Link>Metax Mobile App</Link></div>
+<Link to='/mobile-app'>Metax Mobile App</Link></div>
 <div className='flex border-r-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
-<Link>Metax Cards</Link></div>
+<Link to='/cards'>Metax Cards</Link></div>
       </div>
     </div>)}
    </li>
