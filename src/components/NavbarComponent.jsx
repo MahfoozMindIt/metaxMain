@@ -13,34 +13,34 @@ const[showProducts,setShowProducts]=useState(false);
 
 
     return (
-    <div className='w-full flex flex-col items-center  font-primary '>
-<section className='w-full  flex items-center flex-col  text-white'>
+    <div className='flex flex-col w-full font-primary items-center'>
+<section className='flex flex-col text-white w-full items-center'>
          {/* navBar */}
-         <nav className='flex justify-between items-center w-full '>
+         <nav className='flex justify-between w-full items-center'>
 <img src={logo} alt="" className=''/>
-<ul className='flex items-center gap-10'>
+<ul className='flex gap-10 items-center'>
     
  <Link to='/'>
     <li>Home</li></Link>
-   <li className=' relative'>
+   <li className='relative'>
    <button onMouseEnter={()=>setShowProducts(!showProducts)}  className='cursor-pointer'>Products</button>
-    {showProducts && (<div onMouseLeave={()=>setShowProducts(!showProducts)}  className='bg-white shadow-sm shadow-primary rounded-xl absolute top-10 -left-50 text-black h-[200px] w-[500px] flex justify-between'>
-      <div className='w-[45%] flex flex-col gap-5 mt-5'>
-<div className='w-full flex justify-center border-l-4 border-white hover:border-primary hover:text-primary hover:font-bold transition-all duration-200'><Link>AED Payments</Link></div>
-<div className='w-full flex justify-center border-l-4 border-white hover:border-primary hover:text-primary hover:font-bold transition-all duration-200'>
-<Link>SEPA Payments</Link></div>
-<div className='w-full flex justify-center border-l-4 border-white hover:border-primary hover:text-primary hover:font-bold transition-all duration-200'>
-<Link>UK Faster Payments</Link></div>
-<div className='w-full flex justify-center border-l-4 border-white hover:border-primary hover:text-primary hover:font-bold transition-all duration-200'>
-<Link>USD Payments</Link></div>
+    {showProducts && (<div onMouseLeave={()=>setShowProducts(!showProducts)}  className='flex bg-white h-[200px] justify-between rounded-xl shadow-primary shadow-sm text-black w-[500px] -left-50 absolute top-10'>
+      <div className='flex flex-col w-[45%] gap-5 mt-5'>
+<div className='flex border-l-4 border-white justify-center w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'><Link to='/aed-account'>AED Payments</Link></div>
+<div className='flex border-l-4 border-white justify-center w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
+<Link to='/sepa-account'>SEPA Payments</Link></div>
+<div className='flex border-l-4 border-white justify-center w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
+<Link to='/gbp-account'>UK Faster Payments</Link></div>
+<div className='flex border-l-4 border-white justify-center w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
+<Link to='/usd-payment-account'>USD Payments</Link></div>
       </div>
-      <div className='w-[45%] flex flex-col gap-5 mt-5'>
-<div className='w-full flex justify-center border-r-4 border-white hover:border-primary hover:text-primary hover:font-bold transition-all duration-200'><Link>Bulk Payouts</Link></div>
-<div className='w-full flex justify-center border-r-4 border-white hover:border-primary hover:text-primary hover:font-bold transition-all duration-200'>
+      <div className='flex flex-col w-[45%] gap-5 mt-5'>
+<div className='flex border-r-4 border-white justify-center w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'><Link to='/bulk-payment'>Bulk Payouts</Link></div>
+<div className='flex border-r-4 border-white justify-center w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
 <Link>Apple Pay</Link></div>
-<div className='w-full flex justify-center border-r-4 border-white hover:border-primary hover:text-primary hover:font-bold transition-all duration-200'>
-<Link>Metax MObile App</Link></div>
-<div className='w-full flex justify-center border-r-4 border-white hover:border-primary hover:text-primary hover:font-bold transition-all duration-200'>
+<div className='flex border-r-4 border-white justify-center w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
+<Link>Metax Mobile App</Link></div>
+<div className='flex border-r-4 border-white justify-center w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
 <Link>Metax Cards</Link></div>
       </div>
     </div>)}
@@ -57,9 +57,9 @@ const[showProducts,setShowProducts]=useState(false);
     <li>Contact Us</li></Link> 
 </ul>
 
-<div className='flex items-center gap-7'>
-    <button className='bg-primary py-2 px-5 rounded'>Login</button>
-    <button className='bg-white text-primary font-medium py-2 px-5 rounded'>Sign Up</button>
+<div className='flex gap-7 items-center'>
+    <button className='bg-primary rounded px-5 py-2'>Login</button>
+    <button className='bg-white rounded text-primary font-medium px-5 py-2'>Sign Up</button>
 </div>
 </nav></section></div>
   )

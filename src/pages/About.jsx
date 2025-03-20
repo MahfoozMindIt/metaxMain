@@ -68,7 +68,7 @@ Our platform delivers diverse payment solutions tailored to suit the demands of 
 
 {/* 5th section bulk payments */}
 <main className='w-full flex justify-center sec6 mb-44'>
-<section className='w-[70%] flex flex-col py-32 gap-20 widthHome text-white items-center justify-center  '>
+<section className='w-[70%] widthProductLess flex flex-col py-32 gap-20  text-white items-center justify-center  '>
   <h1 className='text-center font-bold text-6xl'>Our Mission</h1>
   <div className='grid grid-cols-3 gap-20'>
   <div className='flex flex-col justify-center rounded-xl  items-center gap-5 box py-14 p-5 border-primary border-[1px] missionBox' >

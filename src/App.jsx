@@ -9,7 +9,12 @@ const Home=lazy(()=>import('./pages/Home'));
 const Contact=lazy(()=>import('./pages/Contact'));
 const About=lazy(()=>import('./pages/About'));
 const Business=lazy(()=>import('./pages/Business'));
+const AED=lazy(()=>import('./pages/AED'));
 const Personal=lazy(()=>import('./pages/Personal'));
+const SepaAccount=lazy(()=>import('./pages/SepaAccount'));
+const UkFasterPayment=lazy(()=>import('./pages/UkFasterPayment'));
+const UsdPayment=lazy(()=>import('./pages/UsdPayment'));
+const BulkPayment=lazy(()=>import('./pages/BulkPayment'));
 
 
 function App() {
@@ -25,6 +30,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/business" element={<Business />} />
         <Route path="/personal" element={<Personal />} />
+        <Route path="/aed-account" element={<AED />} />
+        <Route path="/sepa-account" element={<SepaAccount />} />
+        <Route path="/gbp-account" element={<UkFasterPayment />} />
+        <Route path="/usd-payment-account" element={<UsdPayment />} />
+        <Route path="/bulk-payment" element={<BulkPayment />} />
         </Route>
       </Routes></ScrollToTop>
     </Router>

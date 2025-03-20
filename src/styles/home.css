@@ -66,6 +66,15 @@
     .widthHome{
         width: 65% !important;
     }
+    .widthProductLessTable{
+      width:51%;
+    }
+    .widthProduct2{
+      width: 100%;
+    }
+    .widthProductLess{
+      width:50%
+    }
     .widthHome2{
         width: 50% !important;
       }

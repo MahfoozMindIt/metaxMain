@@ -35,7 +35,7 @@ Personal Needs
     </section>
 </div>
 {/* last section */}
-<section className='xl:w-[65%] lg:w-[80%] w-[90%] widthHome flex-col flex items-center justify-between py-52
+<section className='xl:w-[65%] lg:w-[80%] w-[90%] widthProductLess flex-col flex items-center justify-between py-52
 
 
 
@@ -140,11 +140,11 @@ Transaction history overview and reports.</li>
 
 
 {/* 2nd section one iban for all */}
-<section className='w-[80%] widthHome2 flex items-center flex-col pb-10  '>
+<section className='w-[80%] widthProduct2 flex items-center flex-col pb-10  '>
     
   <span className='text-primary uppercase text-xl font-semibold pb-3'>Pricing Plan</span>
   <h2 className='text-5xl font-semibold'>Pricing for Individual Account</h2>
-  <div className="overflow-x-auto p-4 mt-5 md:w-[70%] w-full">
+  <div className="overflow-x-auto p-4 mt-5 md:w-[70%] widthProductLessTable w-full">
       <table className="w-full border-collapse text-[#7D7D7D]">
         <thead>
           <tr>
@@ -234,7 +234,7 @@ Transaction history overview and reports.</li>
 
 
 {/* 6th section */}
-<section className='lg:w-[55%] md:w-[70%] w-full sec6 flex widthHome items-center justify-between  rounded-xl mb-44'>
+<section className='lg:w-[55%] md:w-[70%] w-full sec6 flex widthProductLess items-center justify-between  rounded-xl mb-44'>
   <div className='text-white flex flex-col items-center justify-center p-20 w-full'>
     <h2 className='text-5xl font-bold text-center'>Contact us to get your tailored offer</h2>
     <p className='pt-5 pb-10 text-center'>Talk directly to our dedicated banking expert to get your final offer
