@@ -48,12 +48,12 @@ Seamless banking at your fingertips with our app
 <div className='text-center w-full'>
  <div className='flex flex-col justify-center w-full gap-5 items-center'>
     <h1 className='text-5xl text-center font-semibold leading-20'>Banking in your pocket wherever you go</h1>
-    <p className='text-center w-[70%] font-light opacity-[0.8] py-5'>With the MetaX app, you can easily meet all your daily banking needs – from checking your account balance to sending payments on the fly, and much more.
+    <p className='text-center w-[50%] font-light opacity-[0.8] py-5'>With the MetaX app, you can easily meet all your daily banking needs – from checking your account balance to sending payments on the fly, and much more.
     </p>
     
   </div></div>
   
-  <div className='grid grid-cols-4 gap-20 pt-20'>
+  <div className='grid grid-cols-4 gap-7 pt-20'>
 
 
   <div className='flex flex-col border-[1px] border-primary justify-center p-5 rounded-xl box gap-7 items-center py-10'>

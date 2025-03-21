@@ -57,7 +57,7 @@ Bulk Payments
     
   </div></div>
   
-  <div className='grid grid-cols-4 gap-20 pt-20'>
+  <div className='grid grid-cols-4 gap-5 pt-20'>
 
 
   <div className='flex flex-col border-[1px] border-primary justify-center p-5 rounded-xl box gap-7 items-center py-10'>

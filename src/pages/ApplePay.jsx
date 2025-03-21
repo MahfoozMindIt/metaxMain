@@ -47,7 +47,7 @@ Easily Add Your Metax Corporate Card to Apple Pay
     
   </div></div>
   
-  <div className='grid grid-cols-3 gap-20 pt-28'>
+  <div className='grid grid-cols-3 gap-7 pt-28'>
 
 
   <div className='flex flex-col border-[1px] border-primary justify-center p-5 rounded-xl box gap-7 items-center py-14'>
