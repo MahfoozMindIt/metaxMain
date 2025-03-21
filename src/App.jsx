@@ -18,6 +18,7 @@ const BulkPayment=lazy(()=>import('./pages/BulkPayment'));
 const ApplePay=lazy(()=>import('./pages/ApplePay'));
 const MobileApp=lazy(()=>import('./pages/MobileApp'));
 const MetaxCards=lazy(()=>import('./pages/MetaxCards'));
+const Ecommerce=lazy(()=>import('./pages/Ecommerce'));
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         <Route path="/apple-pay" element={<ApplePay />} />
         <Route path="/mobile-app" element={<MobileApp />} />
         <Route path="/cards" element={<MetaxCards />} />
+        <Route path="/ecommerce" element={<Ecommerce />} />
         </Route>
       </Routes></ScrollToTop>
     </Router>
