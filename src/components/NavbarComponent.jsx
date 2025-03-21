@@ -56,20 +56,25 @@ const[showIndustries,setShowIndustries]=useState(false);
       <div className='flex flex-col w-[45%] gap-5 mt-5'>
 <div className='flex border-l-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary pl-7 transition-all'><Link to='/ecommerce'>Ecommerce</Link></div>
 <div className='flex border-l-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary pl-7 transition-all'>
-<Link to='/sepa-account'>SEPA Payments</Link></div>
+<Link to='/corporates'>Corporates</Link></div>
 <div className='flex border-l-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary pl-7 transition-all'>
-<Link to='/gbp-account'>UK Faster Payments</Link></div>
+<Link to='/travel-and-tourism'>
+Travel & Tourism</Link></div>
 <div className='flex border-l-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary pl-7 transition-all'>
-<Link to='/usd-payment-account'>USD Payments</Link></div>
+<Link to='/technology'>
+Technology</Link></div>
       </div>
       <div className='flex flex-col w-[45%] gap-5 mt-5'>
-<div className='flex border-r-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'><Link to='/bulk-payment'>Bulk Payouts</Link></div>
+<div className='flex border-r-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'><Link to='/import-export'>Import & Export
+</Link></div>
 <div className='flex border-r-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
-<Link to='/apple-pay'>Apple Pay</Link></div>
+<Link to='/construction'>Construction
+</Link></div>
 <div className='flex border-r-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
-<Link to='/mobile-app'>Metax Mobile App</Link></div>
+<Link to='/oil-and-gas-industry'>Oil & Gas
+</Link></div>
 <div className='flex border-r-4 border-white justify-start w-full duration-200 hover:border-primary hover:font-bold hover:text-primary transition-all'>
-<Link to='/cards'>Metax Cards</Link></div>
+<Link to='/real-estate'>Real Estate</Link></div>
       </div>
     </div>)}
    </li>

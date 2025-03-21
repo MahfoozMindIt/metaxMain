@@ -19,6 +19,14 @@ const ApplePay=lazy(()=>import('./pages/ApplePay'));
 const MobileApp=lazy(()=>import('./pages/MobileApp'));
 const MetaxCards=lazy(()=>import('./pages/MetaxCards'));
 const Ecommerce=lazy(()=>import('./pages/Ecommerce'));
+const Corporates=lazy(()=>import('./pages/Corporates'));
+const Travel=lazy(()=>import('./pages/Travel'));
+const Technology=lazy(()=>import('./pages/Technology'));
+const ImportExport=lazy(()=>import('./pages/ImportExport'));
+const Construction=lazy(()=>import('./pages/Construction'));
+const OilGas=lazy(()=>import('./pages/OilGas'));
+const RealEstate=lazy(()=>import('./pages/RealEstate'));
+
 
 
 function App() {
@@ -43,6 +51,13 @@ function App() {
         <Route path="/mobile-app" element={<MobileApp />} />
         <Route path="/cards" element={<MetaxCards />} />
         <Route path="/ecommerce" element={<Ecommerce />} />
+        <Route path="/corporates" element={<Corporates />} />
+        <Route path="/travel-and-tourism" element={<Travel />} />
+        <Route path="/technology" element={<Technology />} />
+        <Route path="/import-export" element={<ImportExport />} />
+        <Route path="/construction" element={<Construction />} />
+        <Route path="/oil-and-gas-industry" element={<OilGas />} />
+        <Route path="/real-estate" element={<RealEstate />} />
         </Route>
       </Routes></ScrollToTop>
     </Router>
