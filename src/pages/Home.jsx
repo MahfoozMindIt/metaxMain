@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import logo from '../assets/Logo.png';
+import b from '../assets/bullet.png';
 import "../styles/home.css";
 import a1 from "../assets/a1.png"
 import a2 from "../assets/a2.png"
@@ -40,19 +40,23 @@ Global Payment Solutions for Business Owners
 <div className='flex items-center gap-20'>
   
 <ul className='flex flex-col gap-3'>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Payouts</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Collection accounts</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>vIBANs</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>FX</li>
+  <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>Payouts</li>
+  <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>Collection accounts</li>
+  <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>vIBANs</li>
+  <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>FX</li>
 </ul>
 <ul className='flex flex-col gap-3'>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>EUR SEPA INST and SEPA CT</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>GBP FPS, BACS, CHAPS</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>USD ACH, Fedwire, SWIFT</li>
-  <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>AED Dirham Accounts</li>
+  <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>EUR SEPA INST and SEPA CT</li>
+  <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>GBP FPS, BACS, CHAPS</li>
+  <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>USD ACH, Fedwire, SWIFT</li>
+  <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>AED Dirham Accounts</li>
 </ul>
 </div>
+<div className='flex gap-5'>
+  
 <button className='bg-primary py-2 px-5 rounded w-fit '>Open Account</button>
+<button className='bg-primary py-2 px-5 rounded w-fit '>Learn More</button>
+</div>
   </main>
   <main className='w-[47%] flex justify-center'>
 <div className=''>
@@ -62,10 +66,10 @@ Global Payment Solutions for Business Owners
 </section>
     
     </section>
-    <div className='bg-primary regulateWidth flex items-center justify-center flex-col gap-3 py-7 text-white rounded-xl w-[65%] absolute -bottom-30'>
-<h2 className='text-4xl font-bold'>We’re Regulated & Authorized</h2>
-<p>Want to setup a call with one of our experts?</p>
-<button className='bg-white text-black font-medium py-2 px-5 rounded'>Book Now</button>
+    <div className='bg-primary regulateWidth flex items-center justify-center flex-col gap-6 py-7 text-white rounded-xl w-[65%] absolute -bottom-30'>
+<h2 className='text-6xl text-center font-bold'>We’re Regulated & Authorized</h2>
+<p className='text-xl font-light'>Want to setup a call with one of our experts?</p>
+<button className='bg-white text-black font-medium py-2 px-16 rounded'>Book Now</button>
 
     </div>
 </div>

@@ -79,7 +79,11 @@
         width: 50% !important;
       }
       .regulateWidth{
-        width: 40%;
+        width: 50%;
+        bottom: -170px;
+      }
+      .secondSecHomeMain{
+        padding-top:300px;
       }
       .homeMain{
         /* height: 1000px; */
