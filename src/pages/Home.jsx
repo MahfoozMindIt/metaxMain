@@ -7,7 +7,7 @@ import a3 from "../assets/a3.png"
 import a4 from "../assets/a4.png"
 import a5 from "../assets/a5.png"
 import a6 from "../assets/a6.png"
-import banner from "../assets/banner.png";
+import banner from "../assets/bannerHome.png";
 import sectionFour from "../assets/sec4.png"
 import sec6 from "../assets/sec6.png"
 import timeline from "../assets/timelineHome.png"
@@ -58,9 +58,9 @@ Global Payment Solutions for Business Owners
 <button className='bg-primary py-2 px-5 rounded w-fit '>Learn More</button>
 </div>
   </main>
-  <main className='w-[47%] flex justify-center'>
+  <main className='flex w-[50%] '>
 <div className=''>
-<img src={banner} alt="" className=''/>
+<img src={banner} alt="" className='h-[700px] w-[1800px] object-contain'/>
 </div>
   </main>
 </section>
@@ -74,7 +74,7 @@ Global Payment Solutions for Business Owners
     </div>
 </div>
 {/* last section */}
-<section className='w-[90%] widthHome  secondSecHomeMain flex-col flex  items-center justify-between pb-16 pt-52'>
+<section className='w-[90%] widthHome  secondSecHomeMain flex-col flex  items-center justify-between pb-16 pt-72'>
 <div className='w-full secondSecHome text-center'>
  
 <span className='text-primary text-center  uppercase text-xl font-semibold'>Why Choose Us</span>
