@@ -19,7 +19,7 @@ const[showIndustries,setShowIndustries]=useState(false);
          {/* navBar */}
          <nav className='flex justify-between w-full items-center'>
 <img src={logo} alt="" className=''/>
-<ul className='flex gap-10 items-center'>
+<ul className=' gap-10 hidden xl:flex items-center'>
     
  <Link to='/'>
     <li>Home</li></Link>

@@ -9,10 +9,8 @@ import a5 from "../assets/a5.png"
 import a6 from "../assets/a6.png"
 import banner from "../assets/banner.png";
 import sectionFour from "../assets/sec4.png"
-import sec5Bg from "../assets/sec5Bg.png"
 import sec6 from "../assets/sec6.png"
-import timeline from "../assets/timeline.png"
-import back from "../assets/back.png"
+import timeline from "../assets/timelineHome.png"
 import bulk from "../assets/bulk.png"
 import one from "../assets/01.png"
 import two from "../assets/02.png"
@@ -20,12 +18,12 @@ import three from "../assets/03.png"
 import four from "../assets/04.png"
 import map from "../assets/mapFinal.png"
 import NavbarComponent from "../components/NavbarComponent"
+import sec2Res from "../assets/sec2HomeRes.png"
 import { TiTick } from "react-icons/ti";
-import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className='  flex flex-col items-center font-primary'>
+    <div className='  flex flex-col items-center font-primary' style={{overflowX:"hidden"}}>
 <div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary pb-32 relative'>
 <section className='w-[90%] widthHome flex items-center flex-col py-5 text-white'>
          {/* navBar */}
@@ -35,8 +33,8 @@ const Home = () => {
 {/* banner section starts */}
 
 <section className='flex w-full justify-between pt-20 items-center'>
-  <main className='w-[50%] flex flex-col gap-10'>
-<h1 className='text-7xl font-bold leading-20'>
+  <main className='w-[60%] flex flex-col gap-10 '>
+<h1 className='text-8xl font-bold leading-27'>
 Global Payment Solutions for Business Owners
 </h1>
 <div className='flex items-center gap-20'>
@@ -72,51 +70,52 @@ Global Payment Solutions for Business Owners
     </div>
 </div>
 {/* last section */}
-<section className='w-[90%] widthHome flex-col flex items-center justify-between pb-16 pt-52'>
-<div className='w-full text-center'>
+<section className='w-[90%] widthHome  secondSecHomeMain flex-col flex  items-center justify-between pb-16 pt-52'>
+<div className='w-full secondSecHome text-center'>
  
-<span className='text-primary text-center uppercase text-xl font-semibold'>Why Choose Us</span>
-  <h2 className='text-6xl font-bold pb-10 pt-2'>Meet All Your Business Needs with Metax </h2><div className=' w-full flex flex-col items-center justify-center gap-5'>
-    <p className='text-center w-[60%] pb-5 font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:
+<span className='text-primary text-center  uppercase text-xl font-semibold'>Why Choose Us</span>
+  <h2 className='text-8xl font-bold pb-10 pt-2'>Meet All Your Business Needs with Metax </h2><div className=' w-full flex flex-col items-center justify-center gap-5'>
+    <p className='text-center w-[70%] secondSecHome pb-5 font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:
     </p>
   </div></div>
   
 
-
-<div className='py-32 pt-72 relative '>
+<div className='py-32 pt-72 hidden xl:block rotate-90 xl:rotate-0 timelineDiv relative secondHome'>
   <img src={timeline} alt="" />
-  <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 '>
-    <div className='flex items-center gap-10'>
-<img src={one} alt="" className='h-10 w-10 object-contain'/>
-<h2 className='text-xl font-semibold text-center'>Fully digital</h2></div>
+  <div className='flex flex-col justify-center  w-[400px] pt-3 gap-5 '>
+    <div className='flex items-center gap-5'>
+      <span className='text-primary font-semibold'>1</span>
+<h2 className='text-xl font-semibold text-center text-primary'>Fully digital</h2></div>
 <p className='opacity-[0.7] font-light'>The registration of business start-up accounts and onboarding process is fully digital, from anywhere in the world
 </p>
     </div>
 
-    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-19 left-90'>
-    <div className='flex items-center gap-10'>
-<img src={two} alt="" className='h-10 w-10 object-contain'/>
-<h2 className='text-xl font-semibold text-center'>Secured</h2></div>
+    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-28 left-90'>
+    <div className='flex items-center gap-5'>
+    <span className='text-primary font-semibold'>2</span>
+<h2 className='text-xl font-semibold text-center text-primary'>Secured</h2></div>
 <p className='opacity-[0.7] font-light'>All funds are secured so your capital is always fully protected.
 </p>
     </div>
-    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute bottom-32 left-200'>
-    <div className='flex items-center gap-10'>
-<img src={three} alt="" className='h-10 w-10 object-contain'/>
-<h2 className='text-xl font-semibold text-center'>Mobile</h2></div>
+    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute bottom-32 left-220'>
+    <div className='flex items-center gap-5'>
+    <span className='text-primary font-semibold '>3</span>
+<h2 className='text-xl font-semibold text-center text-primary'>Mobile</h2></div>
 <p className='opacity-[0.7] font-light'>Ability to make payments, export transaction history, and more on the go using the iOS/android app or your smartphone browser
 </p>
     </div>
     
-    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-19 left-265'>
-    <div className='flex items-center gap-10'>
-<img src={four} alt="" className='h-10 w-10 object-contain'/>
-<h2 className='text-xl font-semibold text-center'>Secure software</h2></div>
+    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-28 left-265'>
+    <div className='flex items-center gap-5'>
+    <span className='text-primary font-semibold'>4</span>
+<h2 className='text-xl font-semibold text-center text-primary'>Secure software</h2></div>
 <p className='opacity-[0.7] font-light'>The most secure software, developed by professionals according to ISO 9001:2015 and ISO/IEC 27001:2013.
 </p>
     </div>
 </div>
-
+<div className='xl:hidden '>
+<img src={sec2Res} alt="" className=''/>
+</div>
 
 
   </section>
@@ -124,7 +123,7 @@ Global Payment Solutions for Business Owners
 
 {/* 3rd section currencies we suppport */}
 <main className='flex justify-center w-full py-20 sec6 mb-44'>
-<section className='w-[90%] flex widthHome text-white items-center justify-between py-20'>
+<section className='w-[90%] thirdSecHome flex widthHome text-white items-center justify-between py-20'>
 <div className='w-[50%]'>
   <span className='text-primary uppercase font-semibold'>Supported Currency</span>
   <h2 className='text-6xl font-semibold pb-5'>Currencies We Support</h2>
@@ -161,16 +160,16 @@ Danish Krone (DKK)</li>
 </div>
 </div>
 
-<img src={map} alt="" />
+<img src={map} alt="" className='thirdSecImageHome'/>
 </section>
 </main>
 {/* 3rd section currencies we suppport ends... */}
 
-{/* 2nd section one iban for all */}
+{/* 4rth section one iban for all */}
 <section className='w-[80%] widthHome2 flex items-center flex-col pb-44  '>
   <h2 className='text-6xl font-bold'>One <span className='text-primary '>IBAN</span>  for All </h2>
   <p className='pt-4'>One IBAN for all your business needs—seamless transactions, global reach</p>
-  <div className='grid grid-cols-3 gap-10 pt-14'>
+  <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 pt-14'>
 <div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded hover:scale-[1.1] hover:rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
   <img src={a1} alt="" />
   <h3 className='text-3xl font-semibold'>Fast and Reliable</h3>
@@ -206,19 +205,19 @@ Danish Krone (DKK)</li>
 
   </div>
 </section>
-{/* 2nd section one iban for all ends....... */}
+{/* 4rth section one iban for all ends....... */}
 
 {/* 5th section bulk payments */}
-<main className='w-full flex justify-center sec6 mb-44'>
-<section className='w-[90%] flex widthHome text-white items-center justify-between  '>
+<main className='w-full flex justify-center  sec6 mb-44'>
+<section className='w-[90%] flex widthHome bulkPaySec text-white items-center justify-between  '>
   
-  <div id='sec5' className='sec5 h-[900px] w-[1300px] flex justify-center relative items-center'>
+  <div id='sec5' className='sec5 h-[900px] w-[1300px] bulkPaySecDiv1 flex justify-center relative items-center'>
   <img src={bulk} alt="" className='h-[300px] animate-bounce absolute top-[250px]'/>
   </div>
-  <div className='w-[50%]'>
+  <div className='w-[50%] bulkPaySecDiv2'>
     <span className='text-primary uppercase font-semibold'>Bulk Payments</span>
-    <h2 className='text-6xl font-semibold pb-5 pt-2'>Simplify Bulk Payments for Your Global Workforce</h2>
-    <p className='pb-10 w-[85%]'>Managing payments for a large, distributed team doesn’t have to be complicated. With Metax Payments, you can effortlessly process bulk payments to employees, contractors, and partners worldwide.</p>
+    <h2 className='text-6xl  text-center xl:text-start font-semibold pb-5 pt-2'>Simplify Bulk Payments for Your Global Workforce</h2>
+    <p className='pb-10 text-center xl:text-start w-[85%]'>Managing payments for a large, distributed team doesn’t have to be complicated. With Metax Payments, you can effortlessly process bulk payments to employees, contractors, and partners worldwide.</p>
     
   <ul className='flex flex-col gap-5 pb-10'>
     <li className='flex gap-5 items-center'><span className='border-[2px] border-primary rounded-full bg-transparent p-1'><TiTick/></span>Efficient, Scalable, and Cost-Effective
@@ -230,15 +229,17 @@ Danish Krone (DKK)</li>
     
   One Platform, Endless Possibilities</li>
   </ul>
-  
+  <div className='flex gap-5'>
+    
 <button className='bg-white py-2 px-5  rounded w-fit text-black  font-medium'>Open Account</button>
   <button className='bg-primary ml-5 py-2 px-5 rounded w-fit text-white'>Learn More</button>
+  </div>
   </div>
   
   </section>
 </main>
 {/* 5th section currencies we suppport ends... */}
-{/* section4 get your own UAE */}
+{/* section6 get your own UAE */}
 <section className='w-[90%] widthHome flex-col flex items-center justify-between pb-44 '>
 <div className='w-full text-center'>
   <span className='text-primary text-center uppercase font-semibold'>Get Your Own UAE</span>
@@ -247,9 +248,9 @@ Danish Krone (DKK)</li>
     <p className='text-center w-[70%]'>Expand your financial reach with a dedicated AED IBAN, designed for businesses and individuals seeking fast, cost-effective, and seamless international transactions. With our multi-currency account, you can settle payments in 50+ currencies across 33 countries, simplifying cross-border banking like never before.</p>
   </div>
 </div>
-<main className='pt-28 flex items-center gap-44'>
+<main className='pt-28 flex sixSecHome items-center gap-44'>
   {/* 1st div */}
-  <div className='flex flex-col gap-20  '>
+  <div className='flex flex-col sixSecHomediv1  gap-20  '>
 
     <div className='flex flex-col justify-center rounded-xl items-center border-[1px] border-primary gap-5 box p-5'>
 <img src={one} alt="" className='h-16 w-16 object-contain'/>
@@ -271,7 +272,7 @@ Experience seamless international transactions with competitive exchange rates a
   <img src={sectionFour} alt="" />
   {/* img */}
   {/* 2nd div */}
-  <div className='flex flex-col gap-20  '>
+  <div className='flex flex-col sixSecHomediv2 gap-20  '>
 
     <div className='flex flex-col rounded-xl justify-center border-[1px] border-primary items-center gap-5 box p-5'>
 <img src={two} alt="" className='h-20 w-20 object-contain'/>
@@ -291,10 +292,10 @@ Experience seamless international transactions with competitive exchange rates a
 </main>
 
 </section>
-{/* section4 get your own UAE ends ......*/}
+{/* section6 get your own UAE ends ......*/}
 {/* mini sec */}
 <section className='w-[90%] widthHome flex-col flex items-center justify-between pb-24 '>
-<div className='w-full text-center'>
+<div className='w-full miniSecHome text-center'>
  
   <h2 className='text-xl font-light pb-3'>No more waiting. No hidden fees. Just seamless global banking at your fingertips. </h2><div className=' w-full flex flex-col items-center justify-center gap-5'>
   <span className='text-primary text-2xl text-center uppercase font-extrabold'>
@@ -312,15 +313,15 @@ Experience seamless international transactions with competitive exchange rates a
 
 {/* 6th section */}
 <section className='w-[90%] sec6 flex widthHome items-center justify-between  rounded-xl mb-44'>
-  <div className='text-white w-[50%] p-20'>
+  <div className='text-white sec6Home w-[50%] p-20'>
     <h2 className='text-5xl font-bold'>Cross-Border Payments to over <span className='text-primary'>50+</span> Countries</h2>
     <p className='pt-5 pb-10'>
     Metax Payments is integrated with international payment networks such as USD and SEPA, ensuring wide-reaching coverage and fast money transfers across 50% countries. You can enjoy the convenient process for smooth cross-border transactions, no matter your location or currency.
 
     </p>
     
-<button className='bg-white py-3 px-5  rounded w-fit text-black text-xl font-medium'>Open Account</button>
-  </div><div className='flex justify-center w-[50%] items-end h-full pt-32'>
+<button className='bg-white py-3 px-5   rounded w-fit text-black text-xl font-medium'>Open Account</button>
+  </div><div className='flex justify-center sec6HomeImg w-[50%] items-end h-full pt-32'>
     
   <img src={sec6} alt="" />
   </div>

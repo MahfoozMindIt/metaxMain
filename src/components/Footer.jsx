@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div >
     <div className='back w-full flex justify-center py-20'>
-      <div className='w-[90%] widthFooter text-white'>
+      <div className='hidden xl:block w-[90%] widthFooter text-white'>
   
   <div className='w-full flex gap-52'>
 
