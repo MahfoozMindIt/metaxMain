@@ -95,11 +95,11 @@
 
 @media screen and (max-width:1600px) {
  h1{
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 70px;
+  line-height: 80px;
  }
  h2{
-  font-size: 55px;
+  font-size: 65px;
 
  }
  .regulateWidth h2{
@@ -148,6 +148,9 @@
   flex-direction: row;
   width: 80%;
 }
+.regulateWidth h2{
+  font-size: 50px;
+ }
 .sixSecHomediv1 h2{
   font-size: 25px;
 }

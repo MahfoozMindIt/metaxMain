@@ -18,7 +18,7 @@ const[showIndustries,setShowIndustries]=useState(false);
 <section className='flex flex-col text-white w-full items-center'>
          {/* navBar */}
          <nav className='flex justify-between w-full items-center'>
-<img src={logo} alt="" className=''/>
+<img src={logo} alt="" className='h-16 w-36 object-contain'/>
 <ul className=' gap-10 hidden xl:flex items-center'>
     
  <Link to='/'>
