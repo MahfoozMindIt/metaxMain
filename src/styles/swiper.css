@@ -1,0 +1,33 @@
+.mySwiper {
+    width: 100% !important;
+    height: 500px;
+  }
+  
+  .slide-content {
+    width: 700px;
+    height: 450px;
+    border-radius: 7%;
+    
+  }
+  
+  .swiper-slide-active .slide-content {
+    background:url("../assets/back.png") !important; /* Tailwind's purple-800 */
+    background-position: 10% !important;
+    background-size: cover !important;
+    background-repeat:no-repeat ;
+    color: white;
+    transition: background-color 0.5s ease;
+  }
+  .swiperMain{
+    width: 100% !important;
+  }
+
+  @media screen and (max-width:1300px) {
+    .slide-content {
+        width: 500px;
+        height: 450px;
+        border-radius: 7%;
+        
+      }
+
+  } 
