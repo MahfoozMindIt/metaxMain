@@ -19,6 +19,11 @@ import map from "../assets/mapFinal.png"
 import NavbarComponent from "../components/NavbarComponent"
 import sec2Res from "../assets/sec2HomeRes.png"
 import { TiTick } from "react-icons/ti";
+import { FaNetworkWired } from 'react-icons/fa';
+import { MdNoEncryptionGmailerrorred } from 'react-icons/md';
+import { GiSmartphone } from 'react-icons/gi';
+import { GrSecure } from 'react-icons/gr';
+import { SiFsecure } from 'react-icons/si';
 
 const Home = () => {
   return (
@@ -65,7 +70,7 @@ Global Payment Solutions for Business Owners
 </section>
     
     </section>
-    <div className='bg-primary regulateWidth flex items-center justify-center flex-col gap-6 py-7 text-white rounded-xl w-[65%] absolute -bottom-30'>
+    <div className='sec2 border-t-white border-t-4 border-r-4 border-l-4   regulateWidth flex items-center justify-center flex-col gap-6 py-7 text-white  w-[65%] absolute -bottom-30'>
 <h2 className='text-6xl text-center font-bold'>We’re Regulated & Authorized</h2>
 <p className='text-xl font-light'>Want to setup a call with one of our experts?</p>
 <button className='bg-white text-black font-medium py-2 px-16 rounded'>Book Now</button>
@@ -73,59 +78,81 @@ Global Payment Solutions for Business Owners
     </div>
 </div>
 {/* last section */}
-<section className='w-[90%] widthHome  secondSecHomeMain flex-col flex  items-center justify-between pb-16 pt-72'>
-<div className='w-full secondSecHome text-center'>
- 
+<section className='w-[90%] flex widthHome  justify-center  items-center  pb-44 pt-72'>
+{/* 1st part */}
+<section className='flex  items-center relative w-[50%] justify-center'>
+<div className='h-[200px] w-[200px] -left-3 absolute rounded-full sec2 text-white font-bold flex flex-col justify-center items-center p-10'>
+<h2 className='text-3xl'>Why</h2>
+<h2 className='text-3xl'>Choose</h2>
+<h2 className='text-3xl'>Us</h2>
+</div>
+<div className='h-[600px] w-[600px] rounded-full bg-[#E1E1E1]  font-bold flex flex-col gap-6 justify-center items-center p-24'>
+<h2 className='text-4xl leading-12'>Meet All Your Business
+Needs with Metax</h2>
+<p className='opacity-[0.7] leading-7 font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:</p>
+</div>
 
-<span className='text-primary text-center  uppercase text-xl font-semibold'>Why Choose Us</span>
 
+</section>
+{/* 2nd part */}
+<section className='w-[50%]  flex flex-col gap-20  '>
+
+{/* 1st div */}
+<div className='w-full flex justify-start'>
+  <div className='w-[50%] flex gap-5'>
+    <div className='bg-[#371B4B] w-fit h-fit p-3 text-4xl rounded-full text-white'><FaNetworkWired /></div>
+    <div className='flex flex-col gap-3'>
+      <h3 className='text-primary font-bold text-2xl'>
+      Fully digital
+      </h3>
+      <p>
+      The registration of business start-up accounts and onboarding process is fully digital, from anywhere in the world.
+      </p>
+    </div>
+  </div>
+</div>
+
+{/* 2nd div */}
 <div className='w-full flex justify-center'>
-<h2 className='text-8xl font-bold pb-10 pt-2 w-[87%]'>Meet All Your Business Needs with <span className='text-primary'>Metax </span></h2></div>
-
-<div className=' w-full flex flex-col items-center justify-center gap-5'>
-    <p className='text-center w-[70%] secondSecHome pb-5 font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:
-    </p>
-  </div></div>
-  
-
-<div className='py-32 pt-72 hidden xl:block rotate-90 xl:rotate-0 timelineDiv relative secondHome'>
-  <img src={timeline} alt="" />
-  <div className='flex flex-col justify-center  w-[400px] pt-3 gap-5 '>
-    <div className='flex items-center gap-5'>
-      <span className='text-primary font-semibold'>1</span>
-<h2 className='text-xl font-semibold text-center text-primary'>Fully digital</h2></div>
-<p className='opacity-[0.7] font-light'>The registration of business start-up accounts and onboarding process is fully digital, from anywhere in the world
-</p>
+<div className='w-[50%] flex gap-5'>
+    <div className='bg-[#371B4B] w-fit h-fit p-4 text-3xl rounded-full text-white'><SiFsecure /></div>
+    <div className='flex flex-col gap-3'>
+      <h3 className='text-primary font-bold text-2xl'>
+      Secured
+      </h3>
+      <p>All funds are secured so your capital is always fully protected.
+      </p>
     </div>
-
-    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-28 left-90'>
-    <div className='flex items-center gap-5'>
-    <span className='text-primary font-semibold'>2</span>
-<h2 className='text-xl font-semibold text-center text-primary'>Secured</h2></div>
-<p className='opacity-[0.7] font-light'>All funds are secured so your capital is always fully protected.
-</p>
-    </div>
-    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute bottom-32 left-220'>
-    <div className='flex items-center gap-5'>
-    <span className='text-primary font-semibold '>3</span>
-<h2 className='text-xl font-semibold text-center text-primary'>Mobile</h2></div>
-<p className='opacity-[0.7] font-light'>Ability to make payments, export transaction history, and more on the go using the iOS/android app or your smartphone browser
-</p>
-    </div>
-    
-    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-28 left-265'>
-    <div className='flex items-center gap-5'>
-    <span className='text-primary font-semibold'>4</span>
-<h2 className='text-xl font-semibold text-center text-primary'>Secure software</h2></div>
-<p className='opacity-[0.7] font-light'>The most secure software, developed by professionals according to ISO 9001:2015 and ISO/IEC 27001:2013.
-</p>
-    </div>
-</div>
-<div className='xl:hidden '>
-<img src={sec2Res} alt="" className=''/>
+  </div>
 </div>
 
-
+{/* 3rd div */}
+<div className='w-full flex justify-center'>
+<div className='w-[50%] flex gap-5'>
+    <div className='bg-[#371B4B] w-fit h-fit p-3 text-4xl rounded-full text-white'><GiSmartphone /></div>
+    <div className='flex flex-col gap-3'>
+      <h3 className='text-primary font-bold text-2xl'>Mobile
+      </h3>
+      <p>Ability to make payments, export transaction history, and more on the go using the iOS/android app or your smartphone browser
+      </p>
+    </div>
+  </div>
+</div>
+{/* 3rd div */}
+<div className='w-full flex justify-start'>
+<div className='w-[50%] flex gap-5'>
+    <div className='bg-[#371B4B] w-fit h-fit p-3 text-4xl rounded-full text-white'><GrSecure /></div>
+    <div className='flex flex-col gap-3'>
+      <h3 className='text-primary font-bold text-2xl'>Secure software
+      </h3>
+      <p>The most secure software, developed by professionals according to ISO 9001:2015 and ISO/IEC 27001:2013.
+      </p>
+    </div>
+  </div>
+</div>
+{/* \\\\\\\\\\\\\\\.divs ends .......//././../////////... */}
+</section>
+{/* section ends /......... */}
   </section>
 {/* last section ends ....*/}
 
@@ -279,7 +306,7 @@ Dirham (AED) IBAN Now Available Worldwide!</h2>
   {/* 1st */}
   <div className="relative group transition-all duration-500  rounded overflow-hidden">
   {/* Front (default) */}
-  <div className='h-[520px] cardFront flex  transition-opacity duration-500 ease-in-out flex-col group-hover:hidden  bg-gray-100 rounded  items-center justify-center'>
+  <div className='h-[520px] cardFront flex    transition-all duration-500 ease-in-out flex-col group-hover:hidden  bg-gray-100 rounded  items-center justify-center'>
 <img src={a1} alt="" className='h-[300px] w-full rounded-t-md object-cover'/>
 <div className=' p-10'>
 <h1 className='text-center  text-3xl font-bold'>
@@ -292,7 +319,7 @@ Experience seamless international transactions with competitive exchange rates a
 </div>
 
   {/* Back (on hover) */}
-  <div className="cardHover hidden group-hover:block transition-all duration-500 rounded absolute inset-0 bg-cover bg-center">
+  <div className="cardHover hidden group-hover:block  transition-all duration-500 rounded absolute inset-0 bg-cover bg-center">
     <div className="text-white p-10 flex justify-center items-center flex-col h-full innerContentOfCard">
       <h1 className="text-center text-3xl font-bold">
         Fast & Cost-Effective Transfers

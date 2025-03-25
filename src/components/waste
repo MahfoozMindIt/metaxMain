@@ -1,0 +1,47 @@
+<div className='w-full secondSecHome text-center'>
+ 
+
+<span className='text-primary text-center  uppercase text-xl font-semibold'>Why Choose Us</span>
+
+<div className='w-full flex justify-center'>
+<h2 className='text-8xl font-bold pb-10 pt-2 w-[87%]'>Meet All Your Business Needs with <span className='text-primary'>Metax </span></h2></div>
+
+<div className=' w-full flex flex-col items-center justify-center gap-5'>
+    <p className='text-center w-[70%] secondSecHome pb-5 font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:
+    </p>
+  </div></div>
+  
+
+<div className='py-32 pt-72 hidden xl:block rotate-90 xl:rotate-0 timelineDiv relative secondHome'>
+  <img src={timeline} alt="" />
+  <div className='flex flex-col justify-center  w-[400px] pt-3 gap-5 '>
+    <div className='flex items-center gap-5'>
+      <span className='text-primary font-semibold'>1</span>
+<h2 className='text-xl font-semibold text-center text-primary'>Fully digital</h2></div>
+<p className='opacity-[0.7] font-light'>The registration of business start-up accounts and onboarding process is fully digital, from anywhere in the world
+</p>
+    </div>
+
+    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-28 left-90'>
+    <div className='flex items-center gap-5'>
+    <span className='text-primary font-semibold'>2</span>
+<h2 className='text-xl font-semibold text-center text-primary'>Secured</h2></div>
+<p className='opacity-[0.7] font-light'>All funds are secured so your capital is always fully protected.
+</p>
+    </div>
+    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute bottom-32 left-220'>
+    <div className='flex items-center gap-5'>
+    <span className='text-primary font-semibold '>3</span>
+<h2 className='text-xl font-semibold text-center text-primary'>Mobile</h2></div>
+<p className='opacity-[0.7] font-light'>Ability to make payments, export transaction history, and more on the go using the iOS/android app or your smartphone browser
+</p>
+    </div>
+    
+    <div className='flex flex-col justify-center  w-[400px] pt-10 gap-5 absolute top-28 left-265'>
+    <div className='flex items-center gap-5'>
+    <span className='text-primary font-semibold'>4</span>
+<h2 className='text-xl font-semibold text-center text-primary'>Secure software</h2></div>
+<p className='opacity-[0.7] font-light'>The most secure software, developed by professionals according to ISO 9001:2015 and ISO/IEC 27001:2013.
+</p>
+    </div>
+</div>
