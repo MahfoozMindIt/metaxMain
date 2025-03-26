@@ -51,7 +51,7 @@ const Home = () => {
 
 <section className='flex w-full justify-between mt-24 bannerContent items-center'>
   <main className='w-full flex justify-center flex-col items-center gap-20'>
-<h1 className='text-8xl w-[80%] font-bold text-center leading-27'>
+<h1 className='text-8xl w-[80%] font-bold text-center leading-27 mainHeading'>
 Global Payment Solutions for Business Owners
 </h1>
 <div className='flex items-center gap-32 tracking-wider text-secondary text-3xl'>
@@ -168,7 +168,7 @@ Needs with Metax</h2>
 
 {/* 3rd section currencies we suppport */}
 <main className='flex justify-center w-full py-20 sec3 mb-44'>
-<section className='w-[90%] thirdSecHome flex flex-col widthHome text-white items-center justify-between py-16'>
+<section className='w-full thirdSecHome flex flex-col  text-white items-center justify-between py-16'>
 
 <div className='w-full flex justify-center flex-col items-center'>
   <span className='text-primary text-2xl pb-5 uppercase font-semibold'>Supported Currency</span>
