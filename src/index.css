@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @theme{
   --font-primary:"Poppins";
+  --font-secondary:"Quicksand";
   --color-primary:#7E489B;
 }

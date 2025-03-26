@@ -6,7 +6,7 @@ import a1 from "../assets/aed1.png"
 import a2 from "../assets/aed2.png"
 import a3 from "../assets/aed3.png"
 import a4 from "../assets/aed4.png"
-import banner from "../assets/bannerHome1.png";
+import banner from "../assets/videoBanner.mp4";
 import sectionFour from "../assets/sec4.png"
 import sec6 from "../assets/sec6.png"
 import timeline from "../assets/timelineHome.png"
@@ -28,52 +28,60 @@ import { SiFsecure } from 'react-icons/si';
 const Home = () => {
   return (
     <div className='  flex flex-col items-center font-primary' style={{overflowX:"hidden"}}>
-<div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary pb-32 relative'>
-<section className='w-[90%] widthHome flex items-center flex-col py-5 text-white'>
+<div className='w-full relative  flex flex-col items-center bg-[#030B15] font-primary pb-32 '>
+<video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className='w-full'
+  >
+    <source src={banner} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+<div className='absolute top-0 homeMain flex justify-center'>
+<section className='w-[90%] widthHome  flex items-center flex-col py-5 text-white'>
          {/* navBar */}
         <NavbarComponent/>
 
 {/* nabar ends */}
 {/* banner section starts */}
 
-<section className='flex w-full justify-between items-center'>
-  <main className='w-[60%] flex flex-col gap-10 '>
-<h1 className='text-8xl font-bold leading-27'>
+<section className='flex w-full justify-between mt-24 bannerContent items-center'>
+  <main className='w-full flex justify-center flex-col items-center gap-20'>
+<h1 className='text-8xl w-[80%] font-bold text-center leading-27'>
 Global Payment Solutions for Business Owners
 </h1>
-<div className='flex items-center gap-20'>
+<div className='flex items-center gap-32 tracking-wider text-secondary text-3xl'>
   
-<ul className='flex flex-col gap-3'>
+<ul className='flex flex-col gap-5'>
   <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>Payouts</li>
   <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>Collection accounts</li>
   <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>vIBANs</li>
   <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>FX</li>
 </ul>
-<ul className='flex flex-col gap-3'>
+<ul className='flex flex-col gap-5'>
   <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>EUR SEPA INST and SEPA CT</li>
   <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>GBP FPS, BACS, CHAPS</li>
   <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>USD ACH, Fedwire, SWIFT</li>
   <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>AED Dirham Accounts</li>
 </ul>
 </div>
-<div className='flex gap-5'>
+<div className='flex gap-20'>
   
-<button className='bg-primary py-2 px-5 rounded w-fit '>Open Account</button>
-<button className='bg-primary py-2 px-5 rounded w-fit '>Learn More</button>
-</div>
-  </main>
-  <main className='flex w-[50%] '>
-<div className=''>
-<img src={banner} alt="" className='h-[700px] w-[1800px] object-contain'/>
+<button className='bg-primary h-16 w-52 rounded text-xl font-light  '>Open Account</button>
+<button className='bg-transparent border-1 border-primary  tracking-wider text-xl rounded h-16 w-52'>Learn More</button>
 </div>
   </main>
 </section>
     
     </section>
-    <div className='sec2 border-t-white border-t-4 border-r-4 border-l-4   regulateWidth flex items-center justify-center flex-col gap-6 py-7 text-white  w-[65%] absolute -bottom-30'>
+</div>
+    <div className=' border-t-white border-t-4 border-r-4 border-l-4 rounded-3xl   regulateWidth  text-white  w-[65%] absolute -bottom-25'>
+      <div className=' w-full   sec2 rounded-3xl flex items-center justify-center flex-col gap-6 py-14'>
 <h2 className='text-6xl text-center font-bold'>We’re Regulated & Authorized</h2>
 <p className='text-xl font-light'>Want to setup a call with one of our experts?</p>
-<button className='bg-white text-black font-medium py-2 px-16 rounded'>Book Now</button>
+<button className='bg-white text-black font-medium py-2 px-16 rounded'>Book Now</button></div>
 
     </div>
 </div>

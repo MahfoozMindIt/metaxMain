@@ -38,9 +38,10 @@
 
 }
 .homeMain{
-    background: url('../assets/bannerBg.png');
-    background-color: #030B15;
-    background-position: 70%;
+  background:url("../assets/frontImage.png");
+  height: 100%;
+  width: 100%;
+    background-position: 30%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,6 +97,9 @@
     }
 } */
 @media screen and (min-width:2000px) {
+  .bannerContent{
+    margin-top: 250px;
+  }
     .widthHome{
         width: 65% !important;
     }
