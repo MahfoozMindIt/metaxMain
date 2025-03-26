@@ -28,7 +28,7 @@ export default function App() {
       centeredSlides={true} // Centers the active slide
       loop={true} // Infinite loop
       autoplay={{
-        delay: 3000, // Auto-slide every 2 seconds
+        delay: 1500, // Auto-slide every 2 seconds
         disableOnInteraction: false,
       }}
       coverflowEffect={{
