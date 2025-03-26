@@ -45,3 +45,52 @@
 </p>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className='flex justify-between'>
+  
+  <ul className='flex flex-col w-[35%]  gap-5 text-sm'>
+    <li className='flex gap-5 items-center'><img src={b} alt="" />Euro (EUR)</li>
+    <li className='flex gap-5 items-center'><img src={b} alt="" />
+  UK Sterling (GBP)</li>
+    <li className='flex gap-5 items-center'><img src={b} alt="" />
+  US Dollar (USD)</li>
+    <li className='flex gap-5 items-center'><img src={b} alt="" />
+    Hungarian Forint (HUF)</li>
+  </ul>
+  <ul className='flex flex-col w-[35%] gap-5 text-sm'>
+    <li className='flex gap-5 items-center'><img src={b} alt="" />Norwegian Krone (NOK)</li>
+    <li className='flex gap-5 items-center'><img src={b} alt="" />
+  Swedish Krona (SEK)</li>
+    <li className='flex gap-5 items-center'><img src={b} alt="" />
+  Swiss Franc (CHF)</li>
+    <li className='flex gap-5 items-center'><img src={b} alt="" />
+    Polish Zloty (PLN)</li>
+  </ul>
+  <ul className='flex flex-col gap-5 w-[35%] text-sm'>
+    <li className='flex gap-5 items-center'><img src={b} alt="" />Czech Koruna (CZK)</li>
+    <li className='flex gap-5 items-center'><img src={b} alt="" />
+  Romanian Leu (RON)</li>
+    <li className='flex gap-5 items-center'><img src={b} alt="" />
+  Danish Krone (DKK)</li>
+    <li className='flex gap-5 text-[13.5px] items-center'><img src={b} alt="" />
+     United Arab Emirates Dirham (AED)</li>
+  </ul>
+  </div>

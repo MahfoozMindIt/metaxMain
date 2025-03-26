@@ -37,6 +37,13 @@
 
 
 }
+.sec3{
+  background: url("../assets//sec3MetaxMainHome.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+}
 .homeMain{
   background:url("../assets/frontImage.png");
   height: 100%;

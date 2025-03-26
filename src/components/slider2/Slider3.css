@@ -1,0 +1,33 @@
+.slider3 {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .slider-track3 {
+    display: flex;
+    width: max-content; /* shrink-wrap the content */
+    animation: scrollTrack 30s reverse linear infinite;
+    gap: 100px;
+  }
+  
+  @keyframes scrollTrack {
+    0% {
+        transform: translateX(0);
+      }
+    100% {
+        /* Adjust this value to match half the total width of your track */
+        transform: translateX(-50%);
+      }
+    
+   
+  }
+  
+  .item {
+    flex: 0 0 auto;
+    margin-bottom: 10px;
+    white-space: nowrap;
+  }
+  .slidebg3{
+    background-color: rgba(243,243,243,0.3);
+
+  }

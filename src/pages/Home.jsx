@@ -7,6 +7,7 @@ import a2 from "../assets/aed2.png"
 import a3 from "../assets/aed3.png"
 import a4 from "../assets/aed4.png"
 import banner from "../assets/videoBanner.mp4";
+import Slider2 from "../components/slider2/Slider2"
 import sectionFour from "../assets/sec4.png"
 import sec6 from "../assets/sec6.png"
 import timeline from "../assets/timelineHome.png"
@@ -24,6 +25,7 @@ import { MdNoEncryptionGmailerrorred } from 'react-icons/md';
 import { GiSmartphone } from 'react-icons/gi';
 import { GrSecure } from 'react-icons/gr';
 import { SiFsecure } from 'react-icons/si';
+import Slider3 from '../components/slider2/Slider3';
 
 const Home = () => {
   return (
@@ -70,7 +72,7 @@ Global Payment Solutions for Business Owners
 <div className='flex gap-20'>
   
 <button className='bg-primary h-16 w-52 rounded text-xl font-light  '>Open Account</button>
-<button className='bg-transparent border-1 border-primary  tracking-wider text-xl rounded h-16 w-52'>Learn More</button>
+<button className='bg-transparent border-2 border-primary  tracking-wider text-xl rounded h-16 w-52'>Learn More</button>
 </div>
   </main>
 </section>
@@ -165,48 +167,26 @@ Needs with Metax</h2>
 {/* last section ends ....*/}
 
 {/* 3rd section currencies we suppport */}
-<main className='flex justify-center w-full py-20 sec6 mb-44'>
-<section className='w-[90%] thirdSecHome flex widthHome text-white items-center justify-between py-20'>
-<div className='w-[50%]'>
-  <span className='text-primary uppercase font-semibold'>Supported Currency</span>
+<main className='flex justify-center w-full py-20 sec3 mb-44'>
+<section className='w-[90%] thirdSecHome flex flex-col widthHome text-white items-center justify-between py-16'>
+
+<div className='w-full flex justify-center flex-col items-center'>
+  <span className='text-primary text-2xl pb-5 uppercase font-semibold'>Supported Currency</span>
   <div >
     
-  <h2 className='text-7xl font-semibold pb-5'>Currencies We Support</h2>
+  <h2 className='text-8xl font-semibold pb-5'>Currencies We Support</h2>
   </div>
-  <p className='pb-10 w-[85%]'>We support a diverse range of currencies, ensuring seamless, secure, and hassle-free global transactions for businesses and individuals worldwide.</p>
-  <div className='flex justify-between'>
+ <div className='w-full flex justify-center pt-10 flex-col items-center gap-10'>
+  <Slider2/>
+  <Slider3/>
+ </div>
+<div className='flex gap-20 pt-20'>
   
-<ul className='flex flex-col w-[35%]  gap-5 text-sm'>
-  <li className='flex gap-5 items-center'><img src={b} alt="" />Euro (EUR)</li>
-  <li className='flex gap-5 items-center'><img src={b} alt="" />
-UK Sterling (GBP)</li>
-  <li className='flex gap-5 items-center'><img src={b} alt="" />
-US Dollar (USD)</li>
-  <li className='flex gap-5 items-center'><img src={b} alt="" />
-  Hungarian Forint (HUF)</li>
-</ul>
-<ul className='flex flex-col w-[35%] gap-5 text-sm'>
-  <li className='flex gap-5 items-center'><img src={b} alt="" />Norwegian Krone (NOK)</li>
-  <li className='flex gap-5 items-center'><img src={b} alt="" />
-Swedish Krona (SEK)</li>
-  <li className='flex gap-5 items-center'><img src={b} alt="" />
-Swiss Franc (CHF)</li>
-  <li className='flex gap-5 items-center'><img src={b} alt="" />
-  Polish Zloty (PLN)</li>
-</ul>
-<ul className='flex flex-col gap-5 w-[35%] text-sm'>
-  <li className='flex gap-5 items-center'><img src={b} alt="" />Czech Koruna (CZK)</li>
-  <li className='flex gap-5 items-center'><img src={b} alt="" />
-Romanian Leu (RON)</li>
-  <li className='flex gap-5 items-center'><img src={b} alt="" />
-Danish Krone (DKK)</li>
-  <li className='flex gap-5 text-[13.5px] items-center'><img src={b} alt="" />
-   United Arab Emirates Dirham (AED)</li>
-</ul>
+<button className='bg-primary h-16 w-52 cursor-pointer rounded text-xl font-light  '>Open Account</button>
+<button className='bg-transparent border-2 cursor-pointer border-primary  tracking-wider text-xl rounded h-16 w-52'>Learn More</button>
 </div>
 </div>
 
-<img src={map} alt="" className='thirdSecImageHome'/>
 </section>
 </main>
 {/* 3rd section currencies we suppport ends... */}
@@ -215,49 +195,13 @@ Danish Krone (DKK)</li>
 <section className='w-[80%] widthHome2 flex items-center flex-col pb-44  '>
   <h2 className='text-8xl font-bold'>One <span className='text-primary '>IBAN</span>  for All </h2>
   <p className='pt-4 text-xl font-light'>One IBAN for all your business needs—seamless transactions, global reach</p>
-  {/* slider */}
+  {/* carosel */}
   <div className='w-full flex justify-center'>
   <Slider/>
   </div>
-  {/* slider ends here ........*/}
+  {/* carosel ends here ........*/}
   
   
-  
-  {/* <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 pt-14'>
-<div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded hover:scale-[1.1] hover:rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
-  <img src={a1} alt="" />
-  <h3 className='text-3xl font-semibold'>Fast and Reliable</h3>
-  <p className='text-center'>Expand into new global markets with ease using our fast and reliable payment solutions.</p>
-
-</div>
-<div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] transition-all duration-500 hover:bg-primary hover:text-white'>
-  <img src={a2} alt="" />
-  <h3 className='text-3xl text-center font-semibold'>11 Major Currencies</h3>
-  <p className='text-center'>Effortlessly receive and hold funds in 11 major currencies, offering you the flexibility to operate internationally.</p>
-
-</div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:-rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
-  <img src={a3} alt=""/>
-  <h3 className='text-3xl font-semibold'>Global Network</h3>
-  <p className='text-center'>Increase your reach and improve your treasury management using our global network.</p>
-
-</div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:-rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
-  <img src={a4} alt="" />
-  <h3 className='text-3xl font-semibold'>Over 50 Countries</h3>
-  <p className='text-center'>Send payments to over 50 countries, unlocking new opportunities and building strong global partnerships</p>
-
-</div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] transition-all duration-500 hover:bg-primary hover:text-white'>
-  <img src={a5} alt="" />
-  <h3 className='text-3xl text-center font-semibold'>Optimal Financial Workflow</h3>
-  <p className='text-center'>We're bridging access between traditional and innovative payment rails under the same platform to ensure an optimal financial workflow.</p>
-
-</div><div className='flex flex-col items-center justify-center gap-5 p-5 border-primary border-[1px] rounded  hover:scale-[1.1] hover:rotate-12 transition-all duration-500 hover:bg-primary hover:text-white'>
-  <img src={a6} alt="" />
-  <h3 className='text-3xl font-semibold'>Fast Transfers</h3>
-  <p className='text-center'>Enjoy same-day and next-business-day transfers that keep your business ahead.</p>
-
-</div>
-
-  </div> */}
 </section>
 {/* 4rth section one iban for all ends....... */}
 
