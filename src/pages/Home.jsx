@@ -89,16 +89,16 @@ Global Payment Solutions for Business Owners
 {/* last section */}
 <section className='w-[90%] flex widthHome  justify-center  items-center  pb-44 pt-72'>
 {/* 1st part */}
-<section className='flex  items-center relative w-[50%] justify-center'>
+<section className='flex  items-center relative w-[80%] justify-center'>
 <div className='h-[200px] w-[200px] -left-3 absolute rounded-full sec2 text-white font-bold flex flex-col justify-center items-center p-10'>
 <h2 className='text-3xl'>Why</h2>
 <h2 className='text-3xl'>Choose</h2>
 <h2 className='text-3xl'>Us</h2>
 </div>
-<div className='h-[600px] w-[600px] rounded-full bg-[#E1E1E1]  font-bold flex flex-col gap-6 justify-center items-center p-24'>
-<h2 className='text-4xl leading-12'>Meet All Your Business
+<div className='h-[800px] w-[800px] rounded-full bg-[#E1E1E1]  font-bold flex flex-col gap-6 justify-center items-center p-24'>
+<h2 className='text-5xl leading-12'>Meet All Your Business
 Needs with Metax</h2>
-<p className='opacity-[0.7] leading-7 font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:</p>
+<p className='opacity-[0.7] leading-7 text-xl font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:</p>
 </div>
 
 
