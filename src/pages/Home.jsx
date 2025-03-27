@@ -2,10 +2,9 @@ import React, { Fragment } from 'react';
 import b from '../assets/bullet.png';
 import "../styles/home.css";
 import Slider from '../components/Slider'
-import a1 from "../assets/aed1.png"
-import a2 from "../assets/aed2.png"
-import a3 from "../assets/aed3.png"
-import a4 from "../assets/aed4.png"
+
+import pricingIcon from "../assets/pricingIcon.png"
+import correctIcon from "../assets/correctIcon.png"
 import banner from "../assets/videoBanner.mp4";
 import Slider2 from "../components/slider2/Slider2"
 import sectionFour from "../assets/sec4.png"
@@ -167,7 +166,8 @@ Needs with Metax</h2>
 {/* last section ends ....*/}
 
 {/* 3rd section currencies we suppport */}
-<main className='flex justify-center w-full py-20 sec3 mb-44'>
+<main className='flex justify-center w-full sec3 mb-44'>
+<div className='flex justify-center  py-20 bg-[rgba(0,0,0,0.3)] '>
 <section className='w-full thirdSecHome flex flex-col  text-white items-center justify-between py-16'>
 
 <div className='w-full flex justify-center flex-col items-center'>
@@ -188,6 +188,7 @@ Needs with Metax</h2>
 </div>
 
 </section>
+</div>
 </main>
 {/* 3rd section currencies we suppport ends... */}
 
@@ -238,172 +239,95 @@ Needs with Metax</h2>
 </main>
 {/* 5th section currencies we suppport ends... */}
 {/* section6 get your own UAE */}
-<section className='w-[90%] widthHome flex-col flex items-center justify-between pb-44 '>
-<div className='w-full text-center'>
-  <span className='text-primary text-center uppercase  font-semibold'>Get Your Own UAE</span>
 
-<div className='flex justify-center pt-7'>
-<h2 className='text-7xl text-center w-[85%] leading-20 font-semibold pb-5'>
-Dirham (AED) IBAN Now Available Worldwide!</h2>
-</div>
-<div className=' w-full flex justify-center'>
-    <p className='text-center w-[70%]'>Expand your financial reach with a dedicated AED IBAN, designed for businesses and individuals seeking fast, cost-effective, and seamless international transactions. With our multi-currency account, you can settle payments in 50+ currencies across 33 countries, simplifying cross-border banking like never before.</p>
+
+
+
+{/* section6 get your own UAE ends ....*/}
+
+<section className='w-[90%] bg-[#E5DAEB] flex widthHome lg:flex-row flex-col  justify-between p-20  rounded-xl mb-44'>
+  {/* 1st main div */}
+  <div className='flex flex-col gap-16 lg:w-[50%] w-full'>
+  <div className='flex flex-col gap-3'>
+  <h3 className='text-5xl font-semibold'>Get Your Own UAE</h3>
+    <h2 className='font-bold text-primary text-7xl'>Dirham (AED) IBAN </h2>
+    <h3 className='text-5xl font-semibold'>
+
+Now Available Worldwide!
+    </h3>
   </div>
-</div>
-<main className='pt-28 flex sixSecHome w-[70%] items-center gap-44'>
- 
-  <div className='grid lg:grid-cols-2 grid-cols-1 sixSecHomediv1   gap-20  '>
-{/* card 1 */}
-<div  className=' bg-[whitesmoke] transition-all duration-500 shadow-xl relative rounded'>
-  {/* 1st */}
-  <div className="relative group transition-all duration-500  rounded overflow-hidden">
-  {/* Front (default) */}
-  <div className='h-[520px] cardFront flex    transition-all duration-500 ease-in-out flex-col group-hover:hidden  bg-gray-100 rounded  items-center justify-center'>
-<img src={a1} alt="" className='h-[300px] w-full rounded-t-md object-cover'/>
-<div className=' p-10'>
-<h1 className='text-center  text-3xl font-bold'>
-Fast & Cost-Effective Transfers
-</h1>
-<p className='font-light pt-5 opacity-[0.7]  text-center'>
-Experience seamless international transactions with competitive exchange rates and minimal fees, ensuring faster and more affordable money transfers worldwide.
+  <div className='flex flex-col gap-5 opacity-[0.7] w-[85%] text-[18px]'>
+<p>
+Expand your financial reach with a dedicated AED IBAN, designed for businesses and individuals seeking <span className='text-primary font-semibold'>fast, cost-effective,</span> and <span className='text-primary font-semibold'>seamless international transactions.</span>
+
 </p>
-</div>
-</div>
-
-  {/* Back (on hover) */}
-  <div className="cardHover hidden group-hover:block  transition-all duration-500 rounded absolute inset-0 bg-cover bg-center">
-    <div className="text-white p-10 flex justify-center items-center flex-col h-full innerContentOfCard">
-      <h1 className="text-center text-3xl font-bold">
-        Fast & Cost-Effective Transfers
-      </h1>
-      <p className="font-light pt-5 opacity-[0.7] pb-10 text-center">
-        Experience seamless international transactions with competitive exchange rates and minimal fees, ensuring faster and more affordable money transfers worldwide.
-      </p>
-      <button className="bg-white py-2 px-5 cursor-pointer rounded w-fit text-black font-medium">
-        Open Account
-      </button>
-    </div>
-  </div>
-</div>
-
-
-</div>
-{/* card 2 */}
-<div  className=' bg-[whitesmoke] transition-all duration-500 shadow-xl relative rounded'>
-  {/* 1st */}
-  <div className="relative group transition-all duration-500  rounded overflow-hidden">
-  {/* Front (default) */}
-  <div className='h-[520px] cardFront flex transition-all duration-500 flex-col group-hover:hidden  bg-gray-100 rounded  items-center justify-center'>
-<img src={a2} alt="" className='h-[300px] w-full rounded-t-md object-cover'/>
-<div className=' p-10'>
-<h1 className='text-center  text-3xl font-bold'>Secure Virtual Accounts
-</h1>
-<p className='font-light pt-5 opacity-[0.7]  text-center'>Manage your global finances effortlessly with our secure multi-currency virtual accounts, designed to provide a safe and reliable way to send, receive, and store funds.
+<p>
+  
+With our multi-currency account, you can settle payments in <span className='text-primary font-semibold'>50+ currencies</span> across <span className='text-primary font-semibold'>33 countries</span>, simplifying cross-border banking like never before.
 </p>
-</div>
-</div>
-
-  {/* Back (on hover) */}
-  <div className="cardHover hidden group-hover:block transition-all duration-500 rounded absolute inset-0 bg-cover bg-center">
-    <div className="text-white p-10 flex justify-center items-center flex-col h-full innerContentOfCard">
-      <h1 className="text-center text-3xl font-bold">Secure Virtual Accounts
-      </h1>
-      <p className="font-light pt-5 opacity-[0.7] pb-10 text-center">Manage your global finances effortlessly with our secure multi-currency virtual accounts, designed to provide a safe and reliable way to send, receive, and store funds.
-      </p>
-      <button className="bg-white py-2 px-5 cursor-pointer rounded w-fit text-black font-medium">
-        Open Account
-      </button>
-    </div>
+  </div>
+  
+<div className='flex gap-10'>
+  
+  <button className='bg-primary h-14 w-48 rounded text-[18px]  text-white  '>Open Account</button>
+  <button className='bg-transparent border-2 border-primary text-[18px] text-primary font-semibold tracking-wider text-xl rounded h-14 w-48'>Learn More</button>
   </div>
 </div>
+{/* 2nd main div */}
+<div className='lg:w-[50%] w-full flex justify-center'>
+  
+<div className='bg-primary p-10 text-white rounded-xl w-[70%] relative'>
+<span className='font-light px-7 py-2 rounded-xl bg-[#986DAF] top-5 right-5 text-white absolute text-sm'>
+  POPULAR
+</span>
 
-
+<div className='flex items-center gap-5'>
+  <div className='bg-white p-4 rounded-xl w-fit'>
+    <img src={pricingIcon} alt="" />
+  </div>
+  <p className='font-medium text-xl'>Starter</p>
 </div>
-{/* card3 */}
-<div  className=' bg-[whitesmoke] transition-all duration-500 shadow-xl relative rounded'>
-  {/* 1st */}
-  <div className="relative group transition-all duration-500  rounded overflow-hidden">
-  {/* Front (default) */}
-  <div className='h-[520px] cardFront flex transition-all duration-500 flex-col group-hover:hidden  bg-gray-100 rounded  items-center justify-center'>
-<img src={a3} alt="" className='h-[300px] w-full rounded-t-md object-cover'/>
-<div className=' p-10'>
-<h1 className='text-center  text-3xl font-bold'>Local AED Collections
-</h1>
-<p className='font-light pt-5 opacity-[0.7]  text-center'>Easily collect and process AED payments locally with our efficient payment solutions, enabling businesses to operate smoothly in the UAE without currency conversion hassles.
+<p className='opacity-[0.7] font-light py-7 text-sm'>
+For startups & small businesses
 </p>
-</div>
-</div>
 
-  {/* Back (on hover) */}
-  <div className="cardHover hidden group-hover:block transition-all duration-500 rounded absolute inset-0 bg-cover bg-center">
-    <div className="text-white p-10 flex justify-center items-center flex-col h-full innerContentOfCard">
-      <h1 className="text-center text-3xl font-bold">Local AED Collections
-      </h1>
-      <p className="font-light pt-5 opacity-[0.7] pb-10 text-center">Easily collect and process AED payments locally with our efficient payment solutions, enabling businesses to operate smoothly in the UAE without currency conversion hassles.
-      </p>
-      <button className="bg-white py-2 px-5 cursor-pointer rounded w-fit text-black font-medium">
-        Open Account
-      </button>
-    </div>
-  </div>
+<div>
+  <h1 className='text-4xl font-semibold'>AED 99 <span className='text-[16px] opacity-[0.7] font-light py-7 '>/monthly</span></h1>
 </div>
-
-
-</div>
-{/* card 4 */}
-<div  className=' bg-[whitesmoke] transition-all duration-500 shadow-xl relative rounded'>
-  {/* 1st */}
-  <div className="relative group transition-all duration-500  rounded overflow-hidden">
-  {/* Front (default) */}
-  <div className='h-[520px] cardFront flex transition-all duration-500 flex-col group-hover:hidden  bg-gray-100 rounded  items-center justify-center'>
-<img src={a4} alt="" className='h-[300px] w-full rounded-t-md object-cover'/>
-<div className=' p-10'>
-<h1 className='text-center  text-3xl font-bold'>Instant Payouts
-</h1>
-<p className='font-light pt-5 opacity-[0.7]  text-center'>Access your funds instantly with our rapid payout solutions, allowing businesses and individuals to receive money quickly and efficiently without unnecessary delays.
+<p className='  py-7 text-sm'>
+What’s included
 </p>
-</div>
-</div>
 
-  {/* Back (on hover) */}
-  <div className="cardHover hidden group-hover:block transition-all duration-500 rounded absolute inset-0 bg-cover bg-center">
-    <div className="text-white p-10 flex justify-center items-center flex-col h-full innerContentOfCard">
-      <h1 className="text-center text-3xl font-bold">
-        Fast & Cost-Effective Transfers
-      </h1>
-      <p className="font-light pt-5 opacity-[0.7] pb-10 text-center">
-        Experience seamless international transactions with competitive exchange rates and minimal fees, ensuring faster and more affordable money transfers worldwide.
-      </p>
-      <button className="bg-white py-2 px-5 cursor-pointer rounded w-fit text-black font-medium">
-        Open Account
-      </button>
-    </div>
+<div className='flex flex-col leading-0'>
+  <div className='flex items-center gap-3'>
+    <img src={correctIcon} alt="" className=''/><span className='opacity-[0.7] font-light text-[18px] py-7 '>43 currencies</span>
+  </div>
+  <div className='flex items-center gap-3'>
+    <img src={correctIcon} alt="" /><span className='opacity-[0.7] font-light text-[18px] py-7 '>Instant Payouts</span>
+  </div>
+  <div className='flex items-center gap-3'>
+    <img src={correctIcon} alt="" /><span className='opacity-[0.7] font-light text-[18px] py-7 '>Local AED Collections</span>
+  </div>
+  <div className='flex items-center gap-3'>
+    <img src={correctIcon} alt="" /><span className='opacity-[0.7] font-light text-[18px] py-7 '>Named Virtual IBAN AED</span>
+  </div>
+  <div className='flex items-center gap-3'>
+    <img src={correctIcon} alt="" /><span className='opacity-[0.7] font-light text-[18px] py-7 '>No monthly volume limit</span>
+  </div>
+  <div className='flex items-center gap-3'>
+    <img src={correctIcon} alt="" /><span className='opacity-[0.7] font-light text-[18px] py-7 '>Secure Virtual Accounts</span>
+  </div>
+  <div className='flex items-center gap-3'>
+    <img src={correctIcon} alt="" /><span className='opacity-[0.7] font-light text-[18px] py-7 '>Fast & Cost-Effective Transfers</span>
+  </div>
+  <div className='flex items-center gap-3 '>
+    <img src={correctIcon} alt="" /><span className='opacity-[0.7] font-light text-[18px] py-7 leading-7'>Additional currency account available in USD, GBP, EUR</span>
   </div>
 </div>
 
-
+  </div>
 </div>
-</div>
-</main>
-
 </section>
-{/* section6 get your own UAE ends ......*/}
-{/* mini sec */}
-<section className='w-[90%] widthHome flex-col flex items-center justify-between pb-24 '>
-<div className='w-full miniSecHome text-center'>
- 
-  <h2 className='text-xl font-light pb-3'>No more waiting. No hidden fees. Just seamless global banking at your fingertips. </h2><div className=' w-full flex flex-col items-center justify-center gap-5'>
-  <span className='text-primary text-2xl text-center uppercase font-extrabold'>
-  Open Your AED IBAN Today!</span>
-    <p className='text-center w-[70%] pb-5 font-light'>Expand your financial reach with a dedicated AED IBAN, designed for businesses and individuals seeking fast, cost-effective, and seamless international transactions. With our multi-currency account, you can settle payments in 50+ currencies across 33 countries, simplifying cross-border banking like never before.</p>
-    <div className='flex'>
-<button className='bg-primary py-2 px-5 rounded w-fit text-white'>Open Account</button>
-<button className='bg-primary ml-5 py-2 px-5 rounded w-fit text-white'>Learn More</button></div>
-  </div></div></section>
-{/* mini sec ends ....*/}
-
-
-
 
 
 {/* 6th section */}
