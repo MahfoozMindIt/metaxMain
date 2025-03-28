@@ -213,7 +213,7 @@ Needs with Metax</h2>
 <main className='w-full flex  justify-center  sec6 mb-44'>
 <section className='w-[90%] flex flex-col-reverse xl:flex-row widthHome bulkPaySec text-white items-center justify-between  '>
   
-  <div id='sec5' className=' h-[900px] w-[700px] md:w-[1000px] xl:w-[1300px] flex justify-center relative items-center'>
+  <div id='sec5' className=' h-[550px] w-[700px] md:w-[1000px] xl:w-[1300px] flex justify-center relative items-center'>
   <img src={bulk} alt="" className='md:h-[300px] h-[200px] animate-bounce absolute top-[180px] md:top-[250px]'/>
   </div>
   <div className='xl:w-[50%] flex flex-col items-center xl:items-start xl:justify-start justify-center gap-3 mt-28'>
@@ -259,7 +259,7 @@ Needs with Metax</h2>
 Now Available Worldwide!
     </h3>
   </div>
-  <div className='flex flex-col gap-5 opacity-[0.7] w-[85%] text-[18px]'>
+  <div className='flex flex-col gap-5 opacity-[0.7] md:w-[85%] text-[18px]'>
 <p>
 Expand your financial reach with a dedicated AED IBAN, designed for businesses and individuals seeking <span className='text-primary font-semibold'>fast, cost-effective,</span> and <span className='text-primary font-semibold'>seamless international transactions.</span>
 
@@ -279,7 +279,7 @@ With our multi-currency account, you can settle payments in <span className='
 {/* 2nd main div */}
 <div className='xl:w-[50%] mt-24 xl:mt-0 w-full flex justify-center'>
   
-<div className='bg-primary py-10 px-5 md:p-10 text-white rounded-xl w-[95%] md:w-[85%] lg:-[70%] relative'>
+<div className='bg-primary py-10 px-5 md:p-10 text-white rounded-xl w-[100%] md:w-[85%] lg:-[70%] relative'>
 <span className='font-light px-7 py-2 rounded-xl bg-[#986DAF] top-5 right-5 text-white absolute text-sm'>
   POPULAR
 </span>
