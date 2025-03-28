@@ -213,7 +213,7 @@ Needs with Metax</h2>
 <main className='w-full flex  justify-center  sec6 mb-44'>
 <section className='w-[90%] flex flex-col-reverse xl:flex-row widthHome bulkPaySec text-white items-center justify-between  '>
   
-  <div id='sec5' className='sec5 h-[900px] w-[700px] md:w-[1000px] xl:w-[1300px] bulkPaySecDiv1 flex justify-center relative items-center'>
+  <div id='sec5' className=' h-[900px] w-[700px] md:w-[1000px] xl:w-[1300px] flex justify-center relative items-center'>
   <img src={bulk} alt="" className='md:h-[300px] h-[200px] animate-bounce absolute top-[180px] md:top-[250px]'/>
   </div>
   <div className='xl:w-[50%] flex flex-col items-center xl:items-start xl:justify-start justify-center gap-3 mt-28'>
