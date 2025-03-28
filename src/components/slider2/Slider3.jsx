@@ -10,7 +10,7 @@ import i12 from "../../assets/dkk.png"
 const Slider3 = () => {
   return (
     <div className="slider3">
-      <div className="slider-track3 lg:text-xl font-light ">
+      <div className="slider-track3 flex gap-[10px] lg:gap-[100px] lg:text-xl md:text-[16px] text-sm font-light ">
       <div className='slidebg px-4 py-2 rounded-full border-1 flex items-center gap-5 border-primary'> <img src={i2} alt="" />
         <h1>Swiss Franc (CHF)
 </h1></div>

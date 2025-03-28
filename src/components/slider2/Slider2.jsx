@@ -10,7 +10,7 @@ import './Slider2.css';
 const Slider2 = () => {
   return (
     <div className="slider">
-      <div className="slider-track lg:text-xl font-light ">
+      <div className="slider-track flex gap-[10px] lg:gap-[100px] lg:text-xl md:text-[16px] text-sm font-light ">
        <div className='slidebg px-4 py-2 flex items-center gap-5 rounded-full border-1 border-primary'> <img src={i4} alt="" /> <h1>Euro (EUR)</h1></div>
        <div className='slidebg px-4 py-2 rounded-full border-1  flex items-center gap-5 border-primary'> <img src={i10} alt="" />
        <h1>US Dollar (USD)</h1></div>

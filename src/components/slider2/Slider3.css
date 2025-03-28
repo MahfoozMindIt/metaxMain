@@ -4,10 +4,9 @@
   }
   
   .slider-track3 {
-    display: flex;
     width: max-content; /* shrink-wrap the content */
     animation: scrollTrack 30s reverse linear infinite;
-    gap: 100px;
+    
   }
   
   @keyframes scrollTrack {

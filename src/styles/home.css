@@ -130,6 +130,9 @@
         width: 50%;
         bottom: -170px;
       }
+      .inner_regulateWidth{
+        padding: 50px !important;
+      }
       .secondSecHomeMain{
         padding-top:300px;
       }
@@ -144,7 +147,10 @@
 @media screen and (max-width:1600px) {
 } 
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:550px) {
  
-
+.backgroundVideo{
+  height: 100vh;
+  object-fit: cover;
+}
  } 

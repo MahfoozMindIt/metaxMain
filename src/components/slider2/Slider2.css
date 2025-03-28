@@ -4,10 +4,8 @@
   }
   
   .slider-track {
-    display: flex;
     width: max-content; /* shrink-wrap the content */
     animation: scrollTrack 30s linear infinite;
-    gap: 100px;
   }
   
   @keyframes scrollTrack {
