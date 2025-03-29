@@ -53,7 +53,7 @@ const Home = () => {
 <h1 className='xl:text-8xl text-4xl md:text-5xl lg:text-6xl lg:w-[80%] font-bold text-center xl:leading-27 mainHeading'>
 Global Payment Solutions for Business Owners
 </h1>
-<div className=' md:items-center w-[75%] flex flex-col md:flex-row gap-5  md:gap-24 text-sm  lg:gap-32 tracking-wider text-secondary xl:text-3xl'>
+<div className=' md:items-center w-[75%] xl:w-[60%] flex flex-col md:flex-row gap-5  md:gap-24 text-sm  lg:gap-32 tracking-wider text-secondary xl:text-3xl'>
   
 <ul className='flex flex-col gap-5'>
   <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>Payouts</li>
@@ -90,7 +90,7 @@ Global Payment Solutions for Business Owners
 <section className='w-[90%] flex flex-col xl:flex-row widthHome  justify-center  items-center  pb-44 pt-72'>
 {/* 1st part */}
 <section className='flex flex-col xl:flex-row  items-center relative md:w-[80%] w-full justify-center'>
-<div className='h-[200px] w-[200px] -top-24 lg:-top-17 xl:-left-30 xl:top-55 absolute rounded-full sec2 text-white font-bold flex flex-col justify-center items-center p-10'>
+<div className='h-[200px] w-[200px] -top-24 lg:-top-17 xl:-left-9 xl:top-55 absolute rounded-full sec2 text-white font-bold flex flex-col justify-center items-center p-10'>
 <h2 className='text-3xl'>Why</h2>
 <h2 className='text-3xl'>Choose</h2>
 <h2 className='text-3xl'>Us</h2>
@@ -211,7 +211,7 @@ Needs with Metax</h2>
 
 {/* 5th section bulk payments */}
 <main className='w-full flex  justify-center  sec6 mb-44'>
-<section className='w-[90%] flex flex-col-reverse xl:flex-row widthHome bulkPaySec text-white items-center justify-between  '>
+<section className='w-[90%] flex flex-col-reverse xl:flex-row widthHome bulkPaySec text-white items-center justify-between  xl:pb-24'>
   
   <div id='sec5' className=' h-[550px] w-[700px] md:w-[1000px] xl:w-[1300px] flex justify-center relative items-center'>
   <img src={bulk} alt="" className='md:h-[300px] h-[200px] animate-bounce absolute top-[180px] md:top-[250px]'/>
