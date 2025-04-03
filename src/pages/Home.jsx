@@ -33,7 +33,7 @@ const Home = () => {
   scroller:"body",
   start:"top 100%",
   end:"top 0%",
-  scrub:2,
+  
       }
     })
     const tl6=gsap.timeline({
@@ -42,7 +42,7 @@ const Home = () => {
   scroller:"body",
   start:"top 80%",
   end:"top 0%",
-  scrub:2,
+  
       }
     })
      const tl7=gsap.timeline({
@@ -61,7 +61,7 @@ const Home = () => {
         start:"top 70%",
         // markers:true,
         end:"top 0",
-        scrub:2,
+        
             }
     })
     const tl4=gsap.timeline({
@@ -70,8 +70,7 @@ const Home = () => {
         scroller:"body",
         start:"top 80%",
         // markers:true,
-        end:"top 0%",
-        scrub:2,
+        end:"top 0%"
             }
     })
     
@@ -81,8 +80,7 @@ const Home = () => {
         scroller:"body",
         start:"top 95%",
         // markers:true,
-        end:"top 0%",
-        scrub:2,
+        end:"top 0%"
             }
     })
   
@@ -133,8 +131,8 @@ const Home = () => {
     tl2.from('.d7',{
       y:40,
       opacity:0,
-      delay:3,
-      duration:2,
+      delay:1,
+      duration:1,
       stagger:0.2
     }),
     tl2.from('.d1,.d2,.d3,.d4',{
@@ -147,29 +145,29 @@ const Home = () => {
     tl2.from('.d5,.d6',{
       y:40,
       opacity:0,
-      delay:3,
-      duration:2,
+      delay:1,
+      duration:1,
       stagger:0.2
     }),
     tl5.from('.e1,.e2',{
       y:40,
       opacity:0,
-      delay:3,
-      duration:2,
+      delay:1,
+      duration:1,
       stagger:0.2
     }),
     tl6.from('.f1,.f2,.f3,.f4,.f5,.f6,.f7,.f8,.f9,.f0',{
-      y:-90,
+      y:-10,
       opacity:0,
-      delay:1,
-      duration:1.5,
-      stagger:0.5
+      delay:0.5,
+      duration:0.5,
+      stagger:0.2
     }),
     tl6.from('.g0,.g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9',{
       x:40,
       opacity:0,
-      delay:1,
-      duration:1.5,
+      delay:0.5,
+      duration:0.2,
       stagger:0.2
     }),
     tl7.from('.h1,.h2,.h3',{
