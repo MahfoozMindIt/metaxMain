@@ -52,6 +52,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.homeMain2{
+  background:url("../assets/back.png");
+  height: 100%;
+  width: 100%;
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .box {
     background: white;
     position: relative;

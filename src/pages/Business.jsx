@@ -1,18 +1,17 @@
 import React, { Fragment } from 'react';
-import logo from '../assets/Logo.png';
 import "../styles/home.css";
 import onePurple from '../assets/01purple.png'
 import twoPurple from '../assets/02purple.png'
 import threePurple from '../assets/03purple.png'
 import businessFrame from '../assets/businessFrame.png'
 import map from "../assets/mapFinal.png"
-import { Link } from 'react-router-dom';
+
 import NavbarComponent from '../components/NavbarComponent'
 
 const Business = () => {
   return (
     <div className='  flex flex-col items-center font-primary'>
-<div className='w-full homeMain flex flex-col items-center bg-[#030B15] font-primary pb-32'>
+<div className='w-full homeMain2 flex flex-col items-center bg-[#030B15] font-primary pb-32'>
 <section className='w-[90%] widthHome flex items-center flex-col py-5 text-white'>
          {/* navBar */}
        <NavbarComponent/>
@@ -21,15 +20,19 @@ const Business = () => {
 {/* banner section starts */}
 
 <section className='flex w-full justify-center pt-20 '>
-  <main className='w-[50%] flex flex-col gap-10'>
+  <main className='w-[70%] flex flex-col gap-10'>
+    <span className='font-bold text-5xl text-primary text-center'>We’re Regulated & Authorized</span>
 <h1 className='text-7xl text-center font-bold leading-20'>
-Business Needs
+Meet All Your Business Needs with Metax
 </h1>
-<p className='opacity-[0.8] text-center'>
+<div className='flex justify-center'>
+  
+<p className='opacity-[0.8] text-center w-[70%]'>
 Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth.
 </p>
+</div>
 <div className='flex gap-5 justify-center'>
-<button className='bg-primary py-2 px-5 rounded w-fit '>Open Account</button>
+<button className='bg-white py-2 px-5 rounded text-black font-semibold w-fit '>Open Account</button>
 <button className='bg-primary py-2 px-5 rounded w-fit '>Learn More</button>
 </div>
   </main>
@@ -43,20 +46,8 @@ Metax offers a range of payment solutions tailored to the specific needs of toda
 
 
 '>
-<div className='w-full text-center'>
- 
-<span className='text-primary text-center uppercase text-xl font-semibold'>We’re Regulated & Authorized</span>
-  <h2 className='text-6xl font-bold pb-10 pt-2'>Meet All Your Business Needs with Metax </h2><div className=' w-full flex flex-col items-center justify-center gap-5'>
-    <p className='text-center w-[80%] pb-5 font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:
-    </p>
-    
-<div className='flex gap-5 justify-center'>
-<button className='bg-primary py-2 px-5 text-white rounded w-fit '>Open Account</button>
-<button className='bg-primary py-2 px-5 rounded w-fit text-white'>Learn More</button>
-</div>
-  </div></div>
   
-  <div className='grid grid-cols-3 gap-20 pt-28'>
+  <div className='grid grid-cols-3 gap-20 '>
 
 
   <div className='flex flex-col justify-center rounded-xl items-center border-[1px] border-primary gap-7 box p-5'>
@@ -101,8 +92,8 @@ Metax offers a range of payment solutions tailored to the specific needs of toda
 
 {/* 3rd section currencies we suppport */}
 <main className='flex justify-center w-full py-20 sec6 mb-44'>
-<section className='w-[90%] flex widthHome text-white items-center justify-between py-20'>
-<div className='w-[50%]'>
+<section className='w-[90%] flex flex-col xl:flex-row gap-24 xl:gap-0 widthHome text-white items-center justify-between py-20'>
+<div className='xl:w-[50%]'>
   <span className='text-primary uppercase font-semibold'>Multi-Currency</span>
   <h2 className='text-6xl font-semibold pb-5'>Dedicated Multi-Currency IBAN Account</h2>
   <p className= 'py-3 text-xl style-italic'>Make and receive payments in multiple currencies within a single account!</p>
@@ -115,7 +106,7 @@ Metax offers a range of payment solutions tailored to the specific needs of toda
   </p>
   <div className='flex gap-5'>
     
-<button className='bg-primary py-2 px-5 rounded w-fit text-white'>Open Account</button>
+<button className='bg-white  py-2 px-5 rounded w-fit text-black font-semibold'>Open Account</button>
   
 <button className='bg-primary py-2 px-5 rounded w-fit text-white'>Learn More</button>
 
@@ -131,11 +122,11 @@ Metax offers a range of payment solutions tailored to the specific needs of toda
 {/* 3rd section currencies we suppport ends... */}
 
 {/* 2nd section one iban for all */}
-<section className='w-[80%] widthProduct2  flex items-center flex-col pb-10  '>
+<section className=' w-[95%] md:w-[90%] widthProduct2  flex items-center flex-col pb-10  '>
     
   <span className='text-primary uppercase text-xl font-semibold pb-3'>Pricing Plan</span>
   <h2 className='text-5xl font-semibold'>Pricing for Business Account</h2>
-  <div className="overflow-x-auto p-4 mt-5 md:w-[70%] widthProductLessTable w-full">
+  <div className="overflow-x-auto p-4 mt-5 lg:w-[70%] w-full widthProductLessTable ">
       <table className="w-full border-collapse text-[#7D7D7D]">
         <thead>
           <tr>
@@ -242,9 +233,9 @@ Metax offers a range of payment solutions tailored to the specific needs of toda
 
 
 {/* 6th section */}
-<section className='lg:w-[55%] md:w-[70%] w-full sec6 flex widthProductLess items-center justify-between  rounded-xl mb-44'>
+<section className='lg:w-[61%] w-[95%] md:w-[90%] sec6 flex widthProductLess items-center justify-between  rounded-xl mb-44'>
   <div className='text-white flex flex-col items-center justify-center p-20 w-full'>
-    <h2 className='text-5xl font-bold text-center'>Contact us to get your tailored offer</h2>
+    <h2 className='text-4xl font-semibold text-center'>Contact us to get your tailored offer</h2>
     <p className='pt-5 pb-10 text-center'>Talk directly to our dedicated banking expert to get your final offer
 
     </p>
