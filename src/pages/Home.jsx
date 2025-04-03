@@ -50,8 +50,7 @@ const Home = () => {
   trigger:".lastSec",
   scroller:"body",
   start:"top 80%",
-  end:"top 0%",
-  scrub:2,
+  end:"bottom 0%"
       }
     })
   
