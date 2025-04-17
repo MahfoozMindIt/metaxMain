@@ -14,12 +14,13 @@ import bulk from "../assets/bulk.png"
 import NavbarComponent from "../components/NavbarComponent"
 import sec2Res from "../assets/sec2HomeRes.png"
 import { TiTick } from "react-icons/ti";
-import { FaNetworkWired } from 'react-icons/fa';
-import { MdNoEncryptionGmailerrorred } from 'react-icons/md';
+import { FaDollarSign, FaEuroSign, FaNetworkWired } from 'react-icons/fa';
+import { MdCurrencyPound, MdNoEncryptionGmailerrorred } from 'react-icons/md';
 import { GiSmartphone } from 'react-icons/gi';
 import { GrSecure } from 'react-icons/gr';
 import { SiFsecure } from 'react-icons/si';
 import Slider3 from '../components/slider2/Slider3';
+import { TbCurrencyDirham } from 'react-icons/tb';
 gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
@@ -273,10 +274,10 @@ Needs with Metax</h2>
 {/* 1st div */}
 <div className='w-full flex justify-start'>
   <div className='md:w-[50%] flex gap-5'>
-    <div className='bg-[#371B4B] w-fit h-fit p-3 text-4xl rounded-full text-white'><FaNetworkWired /></div>
+    <div className='bg-[#371B4B] w-fit h-fit p-3 text-4xl rounded-full text-white'><MdCurrencyPound /></div>
     <div className='flex flex-col gap-3 b4'>
       <h3 className='text-primary font-bold text-2xl'>
-      Fully digital
+      Pound (Sterling)
       </h3>
       <p>
       The registration of business start-up accounts and onboarding process is fully digital, from anywhere in the world.
@@ -286,12 +287,12 @@ Needs with Metax</h2>
 </div>
 
 {/* 2nd div */}
-<div className='w-full flex justify-center'>
+<div className='w-full flex justify-start'>
 <div className='md:w-[50%] flex gap-5'>
-    <div className='bg-[#371B4B] w-fit h-fit p-4 text-3xl rounded-full text-white'><SiFsecure /></div>
+    <div className='bg-[#371B4B] w-fit h-fit p-4 text-3xl rounded-full text-white'><FaEuroSign  /></div>
     <div className='flex flex-col gap-3 b5'>
       <h3 className='text-primary font-bold text-2xl'>
-      Secured
+     Euro (EUR)
       </h3>
       <p>All funds are secured so your capital is always fully protected.
       </p>
@@ -300,11 +301,11 @@ Needs with Metax</h2>
 </div>
 
 {/* 3rd div */}
-<div className='w-full flex justify-center'>
+<div className='w-full flex justify-start'>
 <div className='md:w-[50%] flex gap-5'>
-    <div className='bg-[#371B4B] w-fit h-fit p-3 text-4xl rounded-full text-white'><GiSmartphone /></div>
+    <div className='bg-[#371B4B] w-fit h-fit p-3 text-4xl rounded-full text-white'><FaDollarSign /></div>
     <div className='flex flex-col gap-3 b6'>
-      <h3 className='text-primary font-bold text-2xl'>Mobile
+      <h3 className='text-primary font-bold text-2xl'>    Dollar (USD)
       </h3>
       <p>Ability to make payments, export transaction history, and more on the go using the iOS/android app or your smartphone browser
       </p>
@@ -314,9 +315,9 @@ Needs with Metax</h2>
 {/* 3rd div */}
 <div className='w-full flex justify-start'>
 <div className='md:w-[50%] flex gap-5'>
-    <div className='bg-[#371B4B] w-fit h-fit p-3 text-4xl rounded-full text-white'><GrSecure /></div>
+    <div className='bg-[#371B4B] w-fit h-fit p-3 text-4xl rounded-full text-white'><TbCurrencyDirham /></div>
     <div className='flex flex-col gap-3 b7' >
-      <h3 className='text-primary font-bold text-2xl'>Secure software
+      <h3 className='text-primary font-bold text-2xl'>Dirham (د.إ)
       </h3>
       <p>The most secure software, developed by professionals according to ISO 9001:2015 and ISO/IEC 27001:2013.
       </p>
