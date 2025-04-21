@@ -113,8 +113,14 @@
 } */
 @media screen and (min-width:2000px) {
   .mainHeading{
-    font-size: 150px;
+    font-size: 150px !important;
     line-height: 170px;
+    width: 90%;
+  }
+  .bannerPointsWidth{
+    font-size: 40px;
+    width: 100%;
+    margin-left: 370px;
   }
   .bannerContent{
     margin-top: 250px;

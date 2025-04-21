@@ -215,10 +215,10 @@ const Home = () => {
 
 <section className='flex w-full justify-between xl:mt-24 mt-10  bannerContent items-center'>
   <main className='w-full flex justify-center flex-col items-center lg:gap-7 gap-10 md:gap-5 xl:gap-20 ' style={{zIndex:"-1"}}>
-<h1 className='xl:text-8xl text-4xl md:text-5xl lg:text-6xl lg:w-[80%] font-bold text-center bannerMainContent xl:leading-27 mainHeading'>
+<h1 className='xl:text-[80px] text-4xl md:text-5xl  lg:text-6xl lg:w-[80%] xl:w-[70%] font-bold text-center xl:leading-20 bannerMainContent mainHeading'>
 Global Payment Solutions for Business Owners
 </h1>
-<div className=' md:items-center w-[75%] xl:w-[60%] flex flex-col md:flex-row gap-5  md:gap-24 text-sm  lg:gap-32 tracking-wider text-secondary xl:text-3xl'>
+<div className=' md:items-center w-[75%] xl:w-[60%] flex flex-col md:flex-row gap-5 bannerPointsWidth  md:gap-24 text-sm  lg:gap-32 tracking-wider text-secondary xl:text-xl'>
   
 <ul className='flex flex-col gap-5 bannerMainUl1'>
   <li className='flex gap-5 items-center'><span className=''><img src={b} alt="" /></span>Payouts</li>
@@ -261,9 +261,9 @@ Global Payment Solutions for Business Owners
 <h2 className='text-3xl'>Us</h2>
 </div>
 <div className='lg:h-[800px] lg:w-[800px] md:h-[600px] md:w-[600px] w-full rounded-xl md:rounded-full bg-[#E1E1E1]  font-bold flex flex-col gap-6 justify-center items-center md:p-24 p-5 py-36'>
-<h2 className='lg:text-5xl text-4xl leading-12 b2'>Meet All Your Business
+<h2 className='lg:text-5xl text-center text-4xl leading-12 b2'>Meet All Your Business
 Needs with Metax</h2>
-<p className='opacity-[0.7] leading-7 lg:text-xl b3 font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:</p>
+<p className='opacity-[0.7] text-center leading-7 lg:text-xl b3 font-light'>Now, Metax offers a range of payment solutions tailored to the specific needs of today's businesses, helping them simplify their financial operations and focus on growth. This provides you with access to a comprehensive set of financial tools for easy cash flow management:</p>
 </div>
 
 
